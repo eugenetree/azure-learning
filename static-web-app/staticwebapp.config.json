@@ -1,4 +1,4 @@
 {
   "route": "/any/*",
-  "rewrite": "/any-test.html"
+  "rewrite": "./any-test.html"
 }
