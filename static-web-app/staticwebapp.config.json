@@ -1,0 +1,4 @@
+{
+  "route": "/any/*",
+  "rewrite": "/any-test.html"
+}
