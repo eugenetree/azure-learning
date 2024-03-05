@@ -1,4 +1,8 @@
 {
-  "route": "/any/*",
-  "rewrite": "./any-test.html"
+  "routes": [
+    {
+      "route": "/any/*",
+      "rewrite": "/any-test.html"
+    }
+  ]
 }
