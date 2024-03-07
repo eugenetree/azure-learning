@@ -29,7 +29,9 @@ jobs:
         working-directory: ./app-service
 
       - name: Zip artifact for deployment
-        run: zip release.zip ./* -r
+        run: |
+          cd app-service
+          zip -r ../release.zip .
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
