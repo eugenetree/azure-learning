@@ -1,1803 +1,1674 @@
-const locateOld = {
+const locateData = {
     "Aberdeen": [
-    "Aberdeenshire ",
-    "Aberdeen Aberdeenshire",
-    "Aberdeen Airport Aberdeen, Aberdeenshire"
+        "Aberdeen",
+        "Aberdeen Airport",
+        "Aberdeenshire"
     ],
     "Ayr": [
-    "Ayrshire ",
-    "Ayr Ayrshire",
-    "Ayr St. Ives, Cornwall",
-    "Ayr Central Ayr, Ayrshire",
-    "Aylesford Kent"
+        "Ayr",
+        "Ayr",
+        "Ayr Central",
+        "Ayrshire",
+        "Aylesford"
     ],
     "Ballymena": [
-    "Ballymena County Antrim"
+        "Ballymena"
     ],
     "Banbury": [
-    "Banbury Oxfordshire",
-    "Hanbury Burton-On-Trent, Staffordshire",
-    "Bunbury Tarporley, Cheshire",
-    "Hanbury Bromsgrove, Worcestershire",
-    "Badbury Swindon, Wiltshire"
+        "Banbury",
+        "Badbury",
+        "Hanbury",
+        "Hanbury",
+        "Bunbury"
     ],
     "Barnsley": [
-    "Barnsley South Yorkshire",
-    "Barnsley Cirencester, Gloucestershire",
-    "Barnsley Bridgnorth, Shropshire",
-    "Barnsley Wimborne, Dorset",
-    "Bardsley Oldham, Greater Manchester"
+        "Barnsley",
+        "Barnsley",
+        "Barnsley",
+        "Barnsley",
+        "Bardsley"
     ],
     "Barnstaple": [
-    "Barnstaple Devon",
-    "Barnstaple Cross Crediton, Devon"
+        "Barnstaple",
+        "Barnstaple Cross"
     ],
     "Basildon": [
-    "Basildon Essex",
-    "Baildon Shipley, West Yorkshire"
+        "Basildon",
+        "Baildon"
     ],
     "Basingstoke": [
-    "Basingstoke Hampshire"
+        "Basingstoke"
     ],
     "Bath": [
-    "Bath Avon",
-    "Bathford Bath, Avon",
-    "Bathwick Bath, Avon",
-    "Batheaston Bath, Avon",
-    "Bathampton Bath, Avon"
+        "Bath",
+        "Bath Business Park",
+        "Bathford",
+        "Bathwick",
+        "Bathgate"
     ],
     "Bedford": [
-    "Bedfordshire ",
-    "Bedford Bedfordshire",
-    "Edford Radstock, Avon",
-    "Belford Northumberland",
-    "Bidford-On-Avon Alcester, Warwickshire"
+        "Bedford",
+        "Bedfordshire",
+        "Belford",
+        "Redford",
+        "Redford"
     ],
     "Belfast": [
-    "Belfast County Antrim"
+        "Belfast"
     ],
     "Bexleyheath": [
-    "Bexleyheath Kent"
+        "Bexleyheath"
     ],
     "Birkenhead": [
-    "Birkenhead Merseyside"
+        "Birkenhead"
     ],
     "Birmingham": [
-    "Birmingham West Midlands",
-    "Birmingham Business Park Birmingham, West Midlands",
-    "Birmingham Airport Birmingham, West Midlands",
-    "Birlingham Pershore, Worcestershire"
+        "Birmingham",
+        "Birmingham Airport",
+        "Birmingham Business Park",
+        "Birlingham"
     ],
     "Blackburn": [
-    "Blackburn Lancashire",
-    "Blackburn Bathgate, West Lothian",
-    "Blackburn Aberdeen, Aberdeenshire",
-    "Blackburn Road Industrial Estate Coventry, West Midlands"
+        "Blackburn",
+        "Blackburn",
+        "Blackburn",
+        "Blackburn Road Industrial Estate"
     ],
     "Blackpool": [
-    "Blackpool Lancashire",
-    "Blackpool Dartmouth, Devon",
-    "Blackpool Bridge Narberth, Dyfed",
-    "Blackpool Corner Axminster, Devon",
-    "Blackpool & Fylde Industrial Estate Blackpool, Lancashire"
+        "Blackpool",
+        "Blackpool",
+        "Blackpool",
+        "Blackpool Bridge",
+        "Blackpool Airport"
     ],
     "Bolton": [
-    "Bolton Greater Manchester",
-    "Boltongate Wigton, Cumbria",
-    "Bolton Percy York, North Yorkshire",
-    "Bolton Alnwick, Northumberland",
-    "Bolton By Bowland Clitheroe, Lancashire"
+        "Bolton",
+        "Bolton",
+        "Bolton",
+        "Bolton Percy",
+        "Bolton"
     ],
     "Bournemouth": [
-    "Bournemouth Dorset",
-    "Bournemouth International Airport Christchurch, Dorset"
+        "Bournemouth",
+        "Bournemouth International Airport"
     ],
     "Bracknell": [
-    "Bracknell Berkshire"
+        "Bracknell"
     ],
     "Bradford": [
-    "Bradford-On-Avon Wiltshire",
-    "Bradford West Yorkshire",
-    "Bradford Leigh Bradford-On-Avon, Wiltshire",
-    "Bradford On Tone Taunton, Somerset",
-    "Bradford Holsworthy, Devon"
+        "Bradford",
+        "Bradford",
+        "Bradford-On-Avon",
+        "Bradford Leigh",
+        "Bradford Abbas"
     ],
     "Brighton": [
-    "Brighton East Sussex",
-    "Brighton-Le-Sands Liverpool, Merseyside",
-    "Brighton Marina Village Brighton, East Sussex",
-    "Brighton Street Industrial Estate Hull, North Humberside",
-    "Brightons Falkirk, Stirlingshire"
+        "Brighton",
+        "Brighton-Le-Sands",
+        "Brighton Marina Village",
+        "Brighton Street Industrial Estate",
+        "Brightons"
     ],
     "Bristol": [
-    "Bristol Avon",
-    "Bristol International Airport Bristol, Avon",
-    "Briston Melton Constable, Norfolk"
+        "Bristol",
+        "Bristol International Airport",
+        "Briston"
     ],
     "Bromley": [
-    "Bromley Kent",
-    "Bromley Bridgnorth, Shropshire",
-    "Bromley Cross Bolton, Greater Manchester",
-    "Bromley Hayes Lichfield, Staffordshire",
-    "Bromley Sheffield, South Yorkshire"
+        "Bromley",
+        "Bromley",
+        "Bromley",
+        "Bromley",
+        "Bromley Cross"
     ],
     "Burnley": [
-    "Burnley Lancashire",
-    "Burley Oakham, Rutland",
-    "Burley Craven Arms, Shropshire",
-    "Burley Woodhead Ilkley, West Yorkshire",
-    "Burley Leeds, West Yorkshire"
+        "Burnley",
+        "Burley",
+        "Burley",
+        "Burley",
+        "Burley"
     ],
     "Burton-on-Trent": [
-    "Trentham Stoke-On-Trent, Staffordshire",
-    "Trent Vale Stoke-On-Trent, Staffordshire",
-    "Trent Sherborne, Dorset",
-    "Trent Lane Industrial Estate Derby, Derbyshire",
-    "Burton-On-Trent Staffordshire"
+        "Burton-On-Trent",
+        "Trent",
+        "Burton",
+        "Burton",
+        "Burton"
     ],
     "Bury": [
-    "Burry Port Dyfed",
-    "Bury Greater Manchester",
-    "Bury St. Edmunds Suffolk",
-    "Bury Pulborough, West Sussex",
-    "Buryas Bridge Penzance, Cornwall"
+        "Bury",
+        "Bury",
+        "Bury",
+        "Bury",
+        "Bury St. Edmunds"
     ],
     "Bury St Edmunds": [
-    "Bury St. Edmunds Suffolk"
+        "Bury St. Edmunds"
     ],
     "Camberley": [
-    "Camberley Surrey",
-    "Amberley Arundel, West Sussex",
-    "Amberley Stroud, Gloucestershire"
+        "Camberley",
+        "Amberley",
+        "Amberley"
     ],
     "Cambridge": [
-    "Cambridgeshire ",
-    "Cambridge Cambridgeshire",
-    "Cambridge Biomedical Campus Cambridge, Cambridgeshire",
-    "Cambridge Gloucester, Gloucestershire",
-    "Combridge Uttoxeter, Staffordshire"
+        "Cambridge",
+        "Cambridge",
+        "Cambridge Biomedical Campus",
+        "Cambridgeshire",
+        "Hambridge"
     ],
     "Canterbury": [
-    "Canterbury Kent"
+        "Canterbury"
     ],
     "Cardiff": [
-    "Cardiff South Glamorgan",
-    "Cardiff Gate Business Park Cardiff, South Glamorgan"
+        "Cardiff",
+        "Cardiff International Airport",
+        "Cardiff Gate Business Park"
     ],
     "Carlisle": [
-    "Carlisle Cumbria",
-    "Carlisle Lake District Airport Carlisle, Cumbria",
-    "Carlisle Airport Carlisle, Cumbria"
+        "Carlisle",
+        "Carlisle Airport",
+        "Carlisle Lake District Airport"
     ],
     "Chatham": [
-    "Chatham Kent",
-    "Coatham Mundeville Darlington, County Durham",
-    "Chartham Hatch Canterbury, Kent",
-    "Chartham Canterbury, Kent"
+        "Chatham",
+        "Chartham",
+        "Coatham Mundeville",
+        "Chartham Hatch"
     ],
     "Chelmsford": [
-    "Chelmsford Essex"
+        "Chelmsford"
     ],
     "Cheltenham": [
-    "Cheltenham Gloucestershire",
-    "Cheltenham Trade Park Cheltenham, Gloucestershire"
+        "Cheltenham",
+        "Cheltenham Trade Park"
     ],
     "Chester": [
-    "Chester Cheshire",
-    "Chester Le Street County Durham",
-    "Chesterfield Derbyshire",
-    "Chester Business Park Chester, Cheshire",
-    "Chesters Hawick, Roxburghshire"
+        "Chester",
+        "Chester Le Street",
+        "Chester Moor",
+        "Chester Business Park",
+        "Chester West Employment Park"
     ],
     "Chesterfield": [
-    "Chesterfield Derbyshire"
+        "Chesterfield"
     ],
     "Clydebank": [
-    "Clydebank Dunbartonshire",
-    "Clydebank Business Park Clydebank, Dunbartonshire"
+        "Clydebank",
+        "Clydebank Business Park"
     ],
     "Colchester": [
-    "Colchester Essex",
-    "Colchester Business Park Colchester, Essex"
+        "Colchester",
+        "Colchester Business Park"
     ],
     "Corby": [
-    "Corby Northamptonshire",
-    "Corby Hill Carlisle, Cumbria",
-    "Corby Glen Grantham, Lincolnshire",
-    "Corbridge Northumberland",
-    "Corbet Banbridge, County Down"
+        "Corby",
+        "Corby Hill",
+        "Corby Glen",
+        "Corbridge",
+        "Corbane"
     ],
     "Coventry": [
-    "Coventry West Midlands",
-    "Coventry Walsgrave Triangle Coventry, West Midlands"
+        "Coventry",
+        "Coventry Walsgrave Triangle"
     ],
     "Craigavon": [
-    "Craigavon County Armagh"
+        "Craigavon"
     ],
     "Crawley": [
-    "Crawley West Sussex",
-    "Crawley Down Crawley, West Sussex",
-    "Crawley Winchester, Hampshire",
-    "Crawley Witney, Oxfordshire",
-    "Cradley Heath West Midlands"
+        "Crawley",
+        "Crawley",
+        "Crawley",
+        "Crawley Down",
+        "Cradley Heath"
     ],
     "Croydon": [
-    "Croydon Surrey",
-    "Croydon Royston, Hertfordshire",
-    "Roydon Diss, Norfolk",
-    "Roydon Harlow, Essex",
-    "Roydon Mill Harlow, Essex"
+        "Croydon",
+        "Croydon",
+        "Croydon",
+        "Roydon",
+        "Roydon"
     ],
     "Cwmbran": [
-    "Cwmbran Gwent"
+        "Cwmbran"
     ],
     "Darlington": [
-    "Darlington County Durham",
-    "Harlington Hayes, Middlesex",
-    "Darrington Pontefract, West Yorkshire",
-    "Harlington Dunstable, Bedfordshire",
-    "Dartington Totnes, Devon"
+        "Darlington",
+        "Farlington",
+        "Harlington",
+        "Arlington",
+        "Dartington"
     ],
     "Dartford": [
-    "Dartford Kent",
-    "Hartford Huntingdon, Cambridgeshire",
-    "Hartford Cramlington, Northumberland",
-    "Hartford Bridge Bedlington, Northumberland",
-    "Hartford Bridge Hook, Hampshire"
+        "Dartford",
+        "Hartford",
+        "Hartford",
+        "Hartford Bridge",
+        "Hartford"
     ],
     "Derby": [
-    "Derbyshire ",
-    "Derby Derbyshire",
-    "Derryheeny Enniskillen, County Fermanagh",
-    "Derrylin Enniskillen, County Fermanagh",
-    "Derrygiff Enniskillen, County Fermanagh"
+        "Derby",
+        "Derbyshire",
+        "Denby",
+        "Derry",
+        "Derry More"
     ],
     "Doncaster": [
-    "Doncaster South Yorkshire",
-    "Doncaster Finningley Airport Doncaster, South Yorkshire"
+        "Doncaster",
+        "Doncaster Finningley Airport"
     ],
     "Dudley": [
-    "Dudley West Midlands",
-    "Dudley Cramlington, Northumberland",
-    "Dudley Port Tipton, West Midlands",
-    "Dudleston Heath Ellesmere, Shropshire",
-    "Dudleston Ellesmere, Shropshire"
+        "Dudley",
+        "Dudley",
+        "Dudley Port",
+        "Dudleston",
+        "Dudleston Heath"
     ],
     "Dundee": [
-    "Dundee Angus",
-    "Dundee Technology Park Dundee, Angus",
-    "Dundrennan Kirkcudbright, Kirkcudbrightshire"
+        "Dundee",
+        "Dundee Technology Park",
+        "Dundrennan"
     ],
     "Dunfermline": [
-    "Dunfermline Fife",
-    "Dunfermline East Business Parks Dunfermline, Fife"
+        "Dunfermline",
+        "Dunfermline East Business Parks"
     ],
     "Ealing": [
-    "Tealing Dundee, Angus",
-    "Ellingham Bungay, Suffolk",
-    "Ellington Huntingdon, Cambridgeshire",
-    "Edlingham Alnwick, Northumberland",
-    "Eglingham Alnwick, Northumberland"
+        "Ealing",
+        "Tealing",
+        "Easington",
+        "Healing",
+        "Easingwold"
     ],
     "East Ham": [
-    "Easthampnett Chichester, West Sussex",
-    "Eastham Tenbury Wells, Worcestershire",
-    "Eastham Wirral, Merseyside",
-    "Easthampton Leominster, Herefordshire",
-    "East Harting Petersfield, Hampshire"
+        "Eastham",
+        "Eastham",
+        "Easthampton",
+        "Easthampnett",
+        "East Hatley"
     ],
     "East Kilbride": [
-    "East Kilbride Isle of South Uist, Inverness-Shire",
-    "East Kilbride Glasgow, Lanarkshire"
+        "East Kilbride",
+        "East Kilbride"
     ],
     "Eastbourne": [
-    "Eastbourne East Sussex",
-    "Easebourne Midhurst, West Sussex"
+        "Eastbourne",
+        "Easebourne"
     ],
     "Edinburgh": [
-    "Edinburgh Midlothian",
-    "Edinburgh Bioquarter Edinburgh, Midlothian",
-    "Edinburgh Airport Edinburgh, Midlothian",
-    "Edinburgh Technopole Penicuik, Midlothian"
+        "Edinburgh",
+        "Edinburgh Technopole",
+        "Edinburgh Bioquarter",
+        "Edinburgh Airport"
     ],
     "Exeter": [
-    "Exeter Devon",
-    "Exeter Business Park Exeter, Devon",
-    "Exeter Road Industrial Estate Okehampton, Devon",
-    "Exeter Airport Exeter, Devon"
+        "Exeter",
+        "Exeter Airport",
+        "Exeter Business Park",
+        "Exeter Road Industrial Estate"
     ],
     "Folkestone": [
-    "Folkestone Kent"
+        "Folkestone"
     ],
     "Gateshead": [
-    "Gateshead Tyne and Wear",
-    "Gatesheath Chester, Cheshire",
-    "Gatehead Kilmarnock, Ayrshire"
+        "Gateshead",
+        "Gatesheath",
+        "Gatehead"
     ],
     "Glasgow": [
-    "Glasgow Lanarkshire",
-    "Glasgow Dunbartonshire",
-    "Glasgow Prestwick Intnl Airport Prestwick, Ayrshire",
-    "Glasgow East Investment Park Glasgow, Lanarkshire",
-    "Glasgow Business Park Glasgow, Lanarkshire"
+        "Glasgow",
+        "Glasgow",
+        "Glasgow Airport",
+        "Glasgow Business Park",
+        "Glasgow Prestwick Intnl Airport"
     ],
     "Gloucester": [
-    "Gloucestershire ",
-    "Gloucester Gloucestershire",
-    "Gloucester Business Park Gloucester, Gloucestershire",
-    "Gloucestershire Airport Cheltenham, Gloucestershire"
+        "Gloucester",
+        "Gloucester Business Park",
+        "Gloucestershire",
+        "Gloucestershire Airport"
     ],
     "Gravesend": [
-    "Gravesend Kent",
-    "Grovesend Swansea, West Glamorgan",
-    "Grovesend Bristol, Avon"
+        "Gravesend",
+        "Grovesend",
+        "Grovesend"
     ],
     "Greenhithe": [
-    "Greenhithe Kent"
+        "Greenhithe"
     ],
     "Greenock": [
-    "Greenock Renfrewshire",
-    "Greenoak Goole, North Humberside",
-    "Green Rocks Penzance, Cornwall"
+        "Greenock",
+        "Greenoak",
+        "Green Rocks"
     ],
     "Grimsby": [
-    "Grimsby South Humberside",
-    "Grimsay Island Isle of Benbecula",
-    "Grimsay Isle of North Uist, Inverness-Shire"
+        "Grimsby",
+        "Grimsay",
+        "Grimsay Island"
     ],
     "Guildford": [
-    "Guildford Surrey"
+        "Guildford"
     ],
     "Hamilton": [
-    "Hamilton Lanarkshire",
-    "Hamiltonsbawn Armagh, County Armagh",
-    "Hamilton Leicester, Leicestershire",
-    "Hamilton Intnl Technology Park Glasgow, Lanarkshire"
+        "Hamilton",
+        "Hamilton",
+        "Hamilton Intnl Technology Park",
+        "Hamiltonsbawn"
     ],
     "Hammersmith": [
-    "Hammersmith Ripley, Derbyshire"
+        "Hammersmith",
+        "Hammersmith and Fulham"
     ],
     "Harlow": [
-    "Harlow Essex",
-    "Harlow Hill Newcastle Upon Tyne, Tyne and Wear",
-    "Harlow Innovation Park Harlow, Essex",
-    "Harlow Green Gateshead, Tyne and Wear",
-    "Harlow Wood Mansfield, Nottinghamshire"
+        "Harlow",
+        "Harlow Wood",
+        "Harlow Green",
+        "Harlow Hill",
+        "Harlow Innovation Park"
     ],
     "Harrogate": [
-    "Harrogate North Yorkshire"
+        "Harrogate"
     ],
     "Harrow": [
-    "Harrow Middlesex",
-    "Harrow Hill Drybrook, Gloucestershire",
-    "Harrowby Grantham, Lincolnshire",
-    "Harrow Weald Harrow, Middlesex",
-    "Harrowden Bedford, Bedfordshire"
+        "Harrow",
+        "Harrow",
+        "Harrow Weald",
+        "Harrow Hill",
+        "Harrowden"
     ],
     "Hartlepool": [
-    "Hartlepool Cleveland"
+        "Hartlepool"
     ],
     "Hastings": [
-    "Hastings East Sussex",
-    "Hastings Ilminster, Somerset",
-    "Hastingwood Harlow, Essex",
-    "Hastingleigh Ashford, Kent"
+        "Hastings",
+        "Hastings",
+        "Hastingwood",
+        "Hastingleigh"
     ],
     "Hemel Hempstead": [
-    "Hemel Hempstead Hertfordshire",
-    "Hemel Hempstead Industrial Estate Hemel Hempstead, Hertfordshire"
+        "Hemel Hempstead",
+        "Hemel Hempstead Industrial Estate"
     ],
     "Hereford": [
-    "Herefordshire ",
-    "Hereford Herefordshire",
-    "Hertfordshire ",
-    "Hertford Hertfordshire",
-    "Shereford Fakenham, Norfolk"
+        "Hereford",
+        "Herefordshire",
+        "Hertford",
+        "Hertfordshire",
+        "Shereford"
     ],
     "High Wycombe": [
-    "High Wycombe Buckinghamshire"
+        "High Wycombe"
     ],
     "Hounslow": [
-    "Hounslow Middlesex"
+        "Hounslow",
+        "Hounslow"
     ],
     "Huddersfield": [
-    "Huddersfield West Yorkshire"
+        "Huddersfield"
     ],
     "Hull": [
-    "Hull North Humberside",
-    "Hullbridge Hockley, Essex",
-    "Hulland Ward Ashbourne, Derbyshire",
-    "Hulland Village Ashbourne, Derbyshire",
-    "Hullavington Chippenham, Wiltshire"
+        "Hull",
+        "Hullbridge",
+        "Hulland Ward",
+        "Hulland Village",
+        "Hullavington"
     ],
     "Ilford": [
-    "Ilford Essex",
-    "Ilford Ilminster, Somerset",
-    "Milford Haven Dyfed",
-    "Alford Lincolnshire",
-    "Alford Aberdeenshire"
+        "Ilford",
+        "Ilford",
+        "Milford Haven",
+        "Alford",
+        "Alford"
     ],
     "Inverness": [
-    "Inverness-Shire ",
-    "Inverness Inverness-Shire",
-    "Inverness Business & Retail Park Inverness, Inverness-Shire",
-    "Inverness Airport Inverness, Inverness-Shire"
+        "Inverness",
+        "Inverness-Shire",
+        "Inverness Airport",
+        "Inverness Business & Retail Park"
     ],
     "Ipswich": [
-    "Ipswich Suffolk"
+        "Ipswich"
     ],
     "Irvine": [
-    "Irvine Ayrshire",
-    "Irvine Industrial Estate Irvine, Ayrshire",
-    "Irvinestown Enniskillen, County Fermanagh"
+        "Irvine",
+        "Irvine Industrial Estate",
+        "Irvinestown"
     ],
     "Kent": [
-    "Kenton Exeter, Devon",
-    "Kent ",
-    "Kentmere Kendal, Cumbria",
-    "Kents Hill Milton Keynes, Buckinghamshire",
-    "Kentra Acharacle, Argyll"
+        "Kent",
+        "Kent International Airport",
+        "Kenton",
+        "Kenton",
+        "Kentallen"
     ],
     "Kings Lynn": [
-    "King'S Lynn Norfolk"
+        "King'S Lynn"
     ],
     "Kingston Upon Thames": [
-    "Kingston Upon Thames Surrey"
+        "Kingston Upon Thames",
+        "Kingston upon Thames"
     ],
     "Lancaster": [
-    "Lancaster Lancashire",
-    "Ancaster Grantham, Lincolnshire"
+        "Lancaster",
+        "Ancaster"
     ],
     "Leeds": [
-    "Leeds West Yorkshire",
-    "Leeds Maidstone, Kent",
-    "Leedstown Hayle, Cornwall",
-    "Leeds Bradford Airport Leeds, West Yorkshire",
-    "Leedon Leighton Buzzard, Bedfordshire"
+        "Leeds",
+        "Leeds",
+        "Leeds Bradford Airport",
+        "Leedstown",
+        "Leedon"
     ],
     "Leicester": [
-    "Leicestershire ",
-    "Leicester Leicestershire",
-    "Leicester Forest West Leicester, Leicestershire",
-    "Leicester Forest East Leicester, Leicestershire"
+        "Leicester",
+        "Leicester Forest West",
+        "Leicester Forest East",
+        "Leicestershire"
     ],
     "Lincoln": [
-    "Lincolnshire ",
-    "Lincoln Lincolnshire",
-    "Lincoln Hill Ross-On-Wye, Herefordshire"
+        "Lincoln",
+        "Lincoln Hill",
+        "Lincolnshire"
     ],
     "Lisburn": [
-    "Lisburn County Antrim",
-    "Gisburn Clitheroe, Lancashire"
+        "Lisburn",
+        "Gisburn"
     ],
     "Liverpool": [
-    "Liverpool Merseyside",
-    "Liverpool Airport Liverpool, Merseyside",
-    "Liverpool Shopping Park Liverpool, Merseyside"
+        "Liverpool",
+        "Liverpool Airport",
+        "Liverpool Shopping Park",
+        "Liverpool Shopping Park"
     ],
     "Livingston": [
-    "Livingston West Lothian",
-    "Livingston Village Livingston, West Lothian"
+        "Livingston",
+        "Livingston Village"
     ],
     "Llandudno": [
-    "Llandudno Gwynedd",
-    "Llandudno Junction Gwynedd"
+        "Llandudno",
+        "Llandudno Junction"
     ],
     "Llanelli": [
-    "Llanelli Dyfed",
-    "Llanellen Abergavenny, Gwent",
-    "Llanelltyd Dolgellau, Gwynedd",
-    "Llanelly Hill Abergavenny, Gwent",
-    "Llaneilian Amlwch, Gwynedd"
+        "Llanelli",
+        "Llanelltyd",
+        "Llanellen",
+        "Llanelly Hill",
+        "Llaneilian"
     ],
     "London": [
-    "Londonderry County Londonderry",
-    "London Stansted Airport Stansted, Essex",
-    "Londonthorpe Grantham, Lincolnshire",
-    "London Colney St. Albans, Hertfordshire",
-    "London Gatwick Airport Gatwick, West Sussex"
+        "London",
+        "London Colney",
+        "London Apprentice",
+        "London Heathrow Airport",
+        "London Stansted Airport"
     ],
     "Londonderry": [
-    "Londonderry County Londonderry",
-    "Londonderry Northallerton, North Yorkshire"
+        "Londonderry",
+        "Londonderry"
     ],
     "Loughborough": [
-    "Loughborough Leicestershire"
+        "Loughborough"
     ],
     "Luton": [
-    "Luton Bedfordshire",
-    "Luton Newton Abbot, Devon",
-    "Lupton Brixham, Devon",
-    "Luson Plymouth, Devon",
-    "Uton Crediton, Devon"
+        "Luton",
+        "Luton",
+        "Lufton",
+        "Lupton",
+        "Suton"
     ],
     "Maidstone": [
-    "Maidstone Kent",
-    "Mainstone Bishops Castle, Shropshire"
+        "Maidstone",
+        "Mainstone"
     ],
     "Manchester": [
-    "Manchester Greater Manchester",
-    "Manchester Science Park Manchester, Greater Manchester",
-    "Manchester Airport Manchester, Greater Manchester",
-    "Lanchester Durham, County Durham"
+        "Manchester",
+        "Manchester Airport",
+        "Manchester Science Park",
+        "Lanchester"
     ],
     "Mansfield": [
-    "Mansfield Nottinghamshire",
-    "Mansfield Woodhouse Mansfield, Nottinghamshire",
-    "Manfield Darlington, County Durham"
+        "Mansfield",
+        "Mansfield Woodhouse",
+        "Manfield"
     ],
     "Middlesbrough": [
-    "Middlesbrough Cleveland"
+        "Middlesbrough"
     ],
     "Milton Keynes": [
-    "Milton Keynes Buckinghamshire",
-    "Milton Keynes Village Milton Keynes, Buckinghamshire"
+        "Milton Keynes",
+        "Milton Keynes Village"
     ],
     "Motherwell": [
-    "Motherwell Lanarkshire"
+        "Motherwell"
     ],
     "Newcastle-Upon-Tyne": [
-    "Tyne and Wear ",
-    "Newcastle Emlyn Dyfed",
-    "Newcastle County Down",
-    "Newcastleton Roxburghshire",
-    "Newcastle Staffordshire"
+        "Newcastle Upon Tyne",
+        "Newcastle",
+        "Newcastle",
+        "Newcastle Emlyn",
+        "Newcastle"
     ],
     "Newport": [
-    "Newport Gwent",
-    "Newport Dyfed",
-    "Newport Shropshire",
-    "Newport-On-Tay Fife",
-    "Newport Isle of Wight"
+        "Newport",
+        "Newport",
+        "Newport",
+        "Newport",
+        "Newport"
     ],
     "Newry": [
-    "Newry County Down",
-    "New Romney Kent",
-    "New Ridley Stocksfield, Northumberland",
-    "New Radnor Presteigne, Powys",
-    "New Rossington Doncaster, South Yorkshire"
+        "Newry",
+        "New Romney",
+        "New Radnor",
+        "New Rossington",
+        "New Ridley"
     ],
     "Newtownabbey": [
-    "Newtownabbey County Antrim"
+        "Newtownabbey"
     ],
     "Newtownards": [
-    "Newtownards County Down"
+        "Newtownards"
     ],
     "Northampton": [
-    "Northamptonshire ",
-    "Northampton Northamptonshire",
-    "Forthampton Gloucester, Gloucestershire"
+        "Northampton",
+        "Northamptonshire",
+        "Forthampton"
     ],
     "Norwich": [
-    "Norwich Norfolk",
-    "Horwich Bolton, Greater Manchester"
+        "Norwich",
+        "Horwich"
     ],
     "Nottingham": [
-    "Nottinghamshire ",
-    "Nottingham Nottinghamshire",
-    "Cottingham North Humberside",
-    "Cottingham Market Harborough, Leicestershire"
+        "Nottingham",
+        "Nottinghamshire",
+        "Cottingham",
+        "Cottingham"
     ],
     "Oldham": [
-    "Oldham Greater Manchester",
-    "Oldhamstocks Cockburnspath, Berwickshire",
-    "Oldhall West Industrial Estate Irvine, Ayrshire",
-    "Old Hartley Whitley Bay, Tyne and Wear",
-    "Old Hawkinge Folkestone, Kent"
+        "Oldham",
+        "Oldhamstocks",
+        "Old Hall Green",
+        "Old Hall",
+        "Old Hall"
     ],
     "Omagh": [
-    "Omagh County Tyrone",
-    "Magherafelt County Londonderry",
-    "Maghera County Londonderry",
-    "Maghercashel Ballycastle, County Antrim",
-    "Maghernahar Ballycastle, County Antrim"
+        "Omagh",
+        "Magherafelt",
+        "Maghera",
+        "Maghull",
+        "Magheramorne"
     ],
     "Oxford": [
-    "Oxfordshire ",
-    "Oxford Oxfordshire",
-    "Oxford Airport Kidlington, Oxfordshire",
-    "Oxford Business Park North Oxford, Oxfordshire",
-    "Oxford Business Park South Oxford, Oxfordshire"
+        "Oxford",
+        "Oxford Airport",
+        "Oxfordshire",
+        "Oxford Business Park North",
+        "Oxford Business Park South"
     ],
     "Peckham": [
-    "Leckhampton Cheltenham, Gloucestershire",
-    "Beckhampton Marlborough, Wiltshire",
-    "Deckham Gateshead, Tyne and Wear",
-    "Leckhampstead Newbury, Berkshire",
-    "Leckhampton Hill Cheltenham, Gloucestershire"
+        "Deckham",
+        "Leckhampstead",
+        "Leckhampton",
+        "Leckhampton Hill",
+        "Beckhampton"
     ],
     "Perth": [
-    "Perthshire ",
-    "Perth Perthshire",
-    "Pertenhall Bedford, Bedfordshire",
-    "Perton Wolverhampton, West Midlands",
-    "Perton Hereford, Herefordshire"
+        "Perth",
+        "Perthshire",
+        "Perton",
+        "Pertenhall",
+        "Perton"
     ],
     "Peterborough": [
-    "Peterborough Cambridgeshire"
+        "Peterborough"
     ],
     "Plymouth": [
-    "Plymouth Devon"
+        "Plymouth"
     ],
     "Poole": [
-    "Poole Dorset",
-    "Pooley Bridge Penrith, Cumbria",
-    "Poole Keynes Cirencester, Gloucestershire",
-    "Poole Nantwich, Cheshire",
-    "Poolewe Achnasheen, Ross-Shire"
+        "Poole",
+        "Poole",
+        "Poole",
+        "Poole Keynes",
+        "Poolewe"
     ],
     "Portsmouth": [
-    "Portsmouth Hampshire"
+        "Portsmouth"
     ],
     "Preston": [
-    "Preston Lancashire",
-    "Prestonpans East Lothian",
-    "Preston Bagot Henley-In-Arden, West Midlands",
-    "Preston Patrick Milnthorpe, Cumbria",
-    "Preston On The Hill Warrington, Cheshire"
+        "Preston",
+        "Preston",
+        "Preston",
+        "Preston",
+        "Preston"
     ],
     "Reading": [
-    "Reading Berkshire",
-    "Reddingmuirhead Falkirk, Stirlingshire",
-    "Redding Falkirk, Stirlingshire",
-    "Headingley Leeds, West Yorkshire",
-    "Headington Oxford, Oxfordshire"
+        "Reading",
+        "Redding",
+        "Headingley",
+        "Headington",
+        "Reddingmuirhead"
     ],
     "Redditch": [
-    "Redditch Worcestershire"
+        "Redditch"
     ],
     "Romford": [
-    "Romford Essex",
-    "Rumford Wadebridge, Cornwall",
-    "Rumford Falkirk, Stirlingshire",
-    "Cromford Matlock, Derbyshire",
-    "Comford Redruth, Cornwall"
+        "Romford",
+        "Comford",
+        "Rumford",
+        "Cromford",
+        "Rumford"
     ],
     "Rotherham": [
-    "Rotherham South Yorkshire"
+        "Rotherham"
     ],
     "Rushden": [
-    "Rushden Northamptonshire",
-    "Rushden Buntingford, Hertfordshire",
-    "Rushenden Queenborough, Kent",
-    "Rushen Abbey Isle of Man"
+        "Rushden",
+        "Rushden",
+        "Rushen Abbey",
+        "Rushenden"
     ],
     "Salisbury": [
-    "Salisbury Wiltshire",
-    "Salesbury Blackburn, Lancashire",
-    "Sarisbury Green Southampton, Hampshire"
+        "Salisbury",
+        "Salesbury",
+        "Sarisbury Green"
     ],
     "Scunthorpe": [
-    "Scunthorpe South Humberside",
-    "Sculthorpe Fakenham, Norfolk"
+        "Scunthorpe",
+        "Sculthorpe"
     ],
     "Sheffield": [
-    "Sheffield South Yorkshire",
-    "Sheffield Park Uckfield, East Sussex",
-    "Shelfield Alcester, Warwickshire",
-    "Shedfield Southampton, Hampshire",
-    "Sherfield English Romsey, Hampshire"
+        "Sheffield",
+        "Sheffield Park",
+        "Shelfield",
+        "Shelfield",
+        "Shenfield"
     ],
     "Shrewsbury": [
-    "Shrewsbury Shropshire"
+        "Shrewsbury"
     ],
     "Slough": [
-    "Slough Berkshire",
-    "Slough Green Taunton, Somerset",
-    "Loughton Essex",
-    "Slaughtergate Gillingham, Dorset",
-    "Cloughfold Rossendale, Lancashire"
+        "Slough",
+        "Slough Green",
+        "Loughton",
+        "Loughborough",
+        "Cloughoge"
     ],
     "Southampton": [
-    "Southampton Hampshire",
-    "Southampton International Airport Southampton, Hampshire",
-    "Southampton Science Park Southampton, Hampshire"
+        "Southampton",
+        "Southampton International Airport",
+        "Southampton Science Park"
     ],
     "Southend-on-Sea": [
-    "Southend-On-Sea Essex",
-    "Southend Henley-On-Thames, Oxfordshire",
-    "Southend Campbeltown, Argyll",
-    "Southend Wotton-Under-Edge, Gloucestershire",
-    "Southend Airport Southend-On-Sea, Essex"
+        "Southend-On-Sea",
+        "Southend",
+        "Southend",
+        "Southend",
+        "Southend"
     ],
     "Southport": [
-    "Southport Merseyside",
-    "South Poorton Bridport, Dorset"
+        "Southport",
+        "South Poorton"
     ],
     "Stafford": [
-    "Staffordshire ",
-    "Stafford Staffordshire",
-    "Staffordshire Technology Park Stafford, Staffordshire",
-    "Stafford Cross Colyton, Devon",
-    "Stanford Ashford, Kent"
+        "Stafford",
+        "Stafford Cross",
+        "Staffordshire",
+        "Staffordshire Technology Park",
+        "Stanford-Le-Hope"
     ],
     "Staines-upon-Thames": [
-    "Staines-Upon-Thames Middlesex",
-    "Staines Green Hertford, Hertfordshire",
-    "Thames Ditton Surrey",
-    "Thames View Industrial Park Abingdon, Oxfordshire",
-    "Thame Oxfordshire"
+        "Staines-Upon-Thames",
+        "Thames Ditton",
+        "Staines Green",
+        "Thames View Industrial Park",
+        "Thame"
     ],
     "Stevenage": [
-    "Stevenage Hertfordshire"
+        "Stevenage"
     ],
     "Stirling": [
-    "Stirlingshire ",
-    "Stirling Stirlingshire",
-    "Stillington Stockton-On-Tees, Cleveland",
-    "Stillington York, North Yorkshire",
-    "Skirling Biggar, Lanarkshire"
+        "Stirling",
+        "Stirlingshire",
+        "Skirling",
+        "Stillington",
+        "Stillingfleet"
     ],
     "Stockport": [
-    "Stockport Greater Manchester"
+        "Stockport"
     ],
     "Stoke-On-Trent": [
-    "Trentham Stoke-On-Trent, Staffordshire",
-    "Trent Vale Stoke-On-Trent, Staffordshire",
-    "Trent Sherborne, Dorset",
-    "Trent Lane Industrial Estate Derby, Derbyshire",
-    "Stoke Plymouth, Devon"
+        "Stoke-On-Trent",
+        "Trent",
+        "Stoke",
+        "Stoke",
+        "Stoke"
     ],
     "Stratford": [
-    "Stratford-Upon-Avon Warwickshire",
-    "Stratford Sub Castle Salisbury, Wiltshire",
-    "Stratford Enterprise Park Stratford-Upon-Avon, Warwickshire",
-    "Stratford St. Andrew Saxmundham, Suffolk",
-    "Stratford Tony Salisbury, Wiltshire"
+        "Stratford-Upon-Avon",
+        "Stratford Tony",
+        "Stratford Enterprise Park",
+        "Stratford St. Mary",
+        "Stratford Sub Castle"
     ],
     "Sunderland": [
-    "Sunderland Tyne and Wear",
-    "Sunderland Point Morecambe, Lancashire",
-    "Sunderland Bridge Durham, County Durham",
-    "Sunderlandwick Driffield, North Humberside",
-    "Sunderland Cockermouth, Cumbria"
+        "Sunderland",
+        "Sunderland",
+        "Sunderland Bridge",
+        "Sunderland Point",
+        "Sunderland Enterprise Park"
     ],
     "Sutton": [
-    "Sutton Surrey",
-    "Sutton Dover, Kent",
-    "Sutton-In-Ashfield Nottinghamshire",
-    "Sutton Coldfield West Midlands",
-    "Sutton Hill Telford, Shropshire"
+        "Sutton",
+        "Sutton",
+        "Sutton",
+        "Sutton",
+        "Sutton"
     ],
     "Swansea": [
-    "Swansea West Glamorgan",
-    "Swansea Vale Swansea, West Glamorgan",
-    "Swansea Enterprise Park Swansea, West Glamorgan",
-    "Swansea Airport Swansea, West Glamorgan"
+        "Swansea",
+        "Swansea Vale",
+        "Swansea Airport",
+        "Swansea Enterprise Park"
     ],
     "Swindon": [
-    "Swindon Wiltshire",
-    "Swindon Village Cheltenham, Gloucestershire",
-    "Swindon Dudley, West Midlands",
-    "Swinton Manchester, Greater Manchester",
-    "Slindon Stafford, Staffordshire"
+        "Swindon",
+        "Swindon",
+        "Swindon Village",
+        "Swinton",
+        "Swinton"
     ],
     "Tamworth": [
-    "Tamworth Staffordshire",
-    "Tadworth Surrey",
-    "Timworth Bury St. Edmunds, Suffolk",
-    "Tatworth Chard, Somerset",
-    "Tanworth-In-Arden Solihull, West Midlands"
+        "Tamworth",
+        "Tadworth",
+        "Tatworth",
+        "Hamworthy",
+        "Tanworth-In-Arden"
     ],
     "Taunton": [
-    "Taunton Somerset",
-    "Staunton-On-Arrow Leominster, Herefordshire",
-    "Staunton Gloucester, Gloucestershire",
-    "Taynton Gloucester, Gloucestershire",
-    "Staunton-On-Wye Hereford, Herefordshire"
+        "Taunton",
+        "Caunton",
+        "Taynton",
+        "Launton",
+        "Haunton"
     ],
     "Telford": [
-    "Telford Shropshire",
-    "Telford Way Industrial Estate Kettering, Northamptonshire",
-    "Belford Northumberland",
-    "Tetford Horncastle, Lincolnshire",
-    "Welford Newbury, Berkshire"
+        "Telford",
+        "Telford Way Industrial Estate",
+        "Belford",
+        "Yelford",
+        "Welford"
     ],
     "Torquay": [
-    "Torquay Devon"
+        "Torquay"
     ],
     "Truro": [
-    "Truro Cornwall",
-    "Trudoxhill Frome, Somerset"
+        "Truro",
+        "Trudoxhill"
     ],
     "Uxbridge": [
-    "Uxbridge Middlesex",
-    "Axbridge Avon",
-    "Axbridge Somerset",
-    "Oxbridge Bridport, Dorset"
+        "Uxbridge",
+        "Axbridge",
+        "Axbridge",
+        "Oxbridge"
     ],
     "Wakefield": [
-    "Wakefield West Yorkshire",
-    "Wakefield 41 Business Park Wakefield, West Yorkshire",
-    "Wakefield 41 Industrial Estate Wakefield, West Yorkshire",
-    "Pakefield Lowestoft, Suffolk",
-    "Wokefield Green Reading, Berkshire"
+        "Wakefield",
+        "Wakefield 41 Business Park",
+        "Wakefield 41 Industrial Estate",
+        "Pakefield",
+        "Wokefield Green"
     ],
     "Wallasey": [
-    "Wallasey Merseyside",
-    "Wallasea Island Rochford, Essex"
+        "Wallasey",
+        "Wallasea Island"
     ],
     "Walsall": [
-    "Walsall West Midlands",
-    "Walsall Wood Walsall, West Midlands",
-    "Halsall Ormskirk, Lancashire",
-    "Balsall Heath Birmingham, West Midlands",
-    "Balsall Common Coventry, West Midlands"
+        "Walsall",
+        "Walsall Wood",
+        "Halsall",
+        "Balsall Common",
+        "Balsall Heath"
     ],
     "Warrington": [
-    "Warrington Cheshire",
-    "Warrington Merseyside",
-    "Warrington Olney, Buckinghamshire",
-    "Barrington Cambridge, Cambridgeshire",
-    "Harrington Shifnal, Shropshire"
+        "Warrington",
+        "Warrington",
+        "Warrington",
+        "Harrington",
+        "Carrington"
     ],
     "Watford": [
-    "Watford Hertfordshire",
-    "Watford Northampton, Northamptonshire",
-    "Matford Exeter, Devon",
-    "Wayford Norwich, Norfolk",
-    "Walford Cross Taunton, Somerset"
+        "Watford",
+        "Watford",
+        "Ratford",
+        "Matford",
+        "Wayford"
     ],
     "Wembley": [
-    "Wembley Middlesex",
-    "Weobley Hereford, Herefordshire"
+        "Wembley",
+        "Weobley"
     ],
     "West Bromwich": [
-    "West Bromwich West Midlands"
+        "West Bromwich"
     ],
     "West Thurrock": [
-    "West Thurrock Grays, Essex"
+        "West Thurrock"
     ],
     "Wigan": [
-    "Wigan Greater Manchester",
-    "Wigland Malpas, Cheshire"
+        "Wigan",
+        "Wigland"
     ],
     "Winchester": [
-    "Winchester Hampshire",
-    "Binchester Moor Spennymoor, County Durham",
-    "Binchester Bishop Auckland, County Durham"
+        "Winchester",
+        "Binchester",
+        "Binchester Moor"
     ],
     "Woking": [
-    "Woking Surrey",
-    "Wokingham Berkshire",
-    "Workington Cumbria"
+        "Woking",
+        "Wokingham",
+        "Workington"
     ],
     "Wolverhampton": [
-    "Wolverhampton West Midlands"
+        "Wolverhampton"
     ],
     "Worcester": [
-    "Worcestershire ",
-    "Worcester Park Surrey",
-    "Worcester Worcestershire"
+        "Worcester",
+        "Worcester Park",
+        "Worcestershire"
     ],
     "Wrexham": [
-    "Wrexham Clwyd",
-    "Wrexham Industrial Estate Wrexham, Clwyd",
-    "Wrexham Technology Park Wrexham, Clwyd",
-    "Wroxham Norwich, Norfolk",
-    "Wretham Thetford, Norfolk"
+        "Wrexham",
+        "Wrexham Industrial Estate",
+        "Wrexham Technology Park",
+        "Wexham",
+        "Wroxham"
     ],
     "Yeovil": [
-    "Yeovil Somerset",
-    "Yeovilton Yeovil, Somerset",
-    "Yeovil Marsh Yeovil, Somerset",
-    "Yeo Vale Bideford, Devon"
+        "Yeovil",
+        "Yeovil Marsh",
+        "Yeovilton",
+        "Yeo Vale"
     ],
     "York": [
-    "York North Yorkshire",
-    "Yorkletts Whitstable, Kent",
-    "Yorkley Lydney, Gloucestershire",
-    "York Road Business Park Malton, North Yorkshire",
-    "York Business Park York, North Yorkshire"
+        "York",
+        "York Business Park",
+        "York Road Business Park",
+        "Yorkley",
+        "Yorkley Slade"
     ]
-    }
+}
 
-const locateNew = {
+const googleData = {
     "Aberdeen": [
-    "Aberdeen",
-    "Aberdeen Airport",
-    "Aberdeenshire"
+        "Aberdeen",
+        "Aberdeenshire",
+        "Aberdeen City",
+        "Westhill",
+        "Alford"
     ],
     "Ayr": [
-    "Ayr",
-    "Ayr",
-    "Ayr Central",
-    "Ayrshire",
-    "Aylesford"
+        "Ayr",
+        "Ayr, Saint Ives",
+        "Dunlop, Kilmarnock",
+        "Troon",
+        "Dundonald"
     ],
     "Ballymena": [
-    "Ballymena"
+        "Ballymena"
     ],
     "Banbury": [
-    "Banbury",
-    "Badbury",
-    "Hanbury",
-    "Hanbury",
-    "Bunbury"
+        "Banbury",
+        "Bunbury, Tarporley"
     ],
     "Barnsley": [
-    "Barnsley",
-    "Barnsley",
-    "Barnsley",
-    "Barnsley",
-    "Bardsley"
+        "Barnsley",
+        "Barnsley, Cirencester",
+        "Barnsley, Bridgnorth"
     ],
     "Barnstaple": [
-    "Barnstaple",
-    "Barnstaple Cross"
+        "Barnstaple"
     ],
     "Basildon": [
-    "Basildon",
-    "Baildon"
+        "Basildon",
+        "Basildon, Reading"
     ],
     "Basingstoke": [
-    "Basingstoke"
+        "Basingstoke"
     ],
     "Bath": [
-    "Bath",
-    "Bath Business Park",
-    "Bathford",
-    "Bathwick",
-    "Bathgate"
+        "Bath",
+        "Bathgate",
+        "Bathampton, Bath",
+        "Batheaston",
+        "Bathford"
     ],
     "Bedford": [
-    "Bedford",
-    "Bedfordshire",
-    "Belford",
-    "Redford",
-    "Redford"
+        "Bedford",
+        "Ireland, Shefford",
+        "Bidford-on-Avon, Alcester",
+        "Sandy",
+        "Carlton, Bedford"
     ],
     "Belfast": [
-    "Belfast"
+        "Belfast"
     ],
     "Bexleyheath": [
-    "Bexleyheath"
+        "Bexleyheath"
     ],
     "Birkenhead": [
-    "Birkenhead"
+        "Birkenhead"
     ],
     "Birmingham": [
-    "Birmingham",
-    "Birmingham Airport",
-    "Birmingham Business Park",
-    "Birlingham"
+        "Birmingham",
+        "Barningham, Norwich",
+        "Hollywood"
     ],
     "Blackburn": [
-    "Blackburn",
-    "Blackburn",
-    "Blackburn",
-    "Blackburn Road Industrial Estate"
+        "Blackburn",
+        "Blackburn, Bathgate",
+        "Blackburn, Aberdeen",
+        "Blackburn with Darwen"
     ],
     "Blackpool": [
-    "Blackpool",
-    "Blackpool",
-    "Blackpool",
-    "Blackpool Bridge",
-    "Blackpool Airport"
+        "Blackpool",
+        "Blackpool, Dartmouth",
+        "Blackpool Corner, Axminster",
+        "Blackpool Gate, Carlisle",
+        "Blackpool, Narberth"
     ],
     "Bolton": [
-    "Bolton",
-    "Bolton",
-    "Bolton",
-    "Bolton Percy",
-    "Bolton"
+        "Bolton",
+        "Bolton Abbey, Skipton",
+        "Bolton upon Dearne",
+        "Bolton-le-Sands",
+        "Bolton by Bowland, Clitheroe"
     ],
     "Bournemouth": [
-    "Bournemouth",
-    "Bournemouth International Airport"
+        "Bournemouth"
     ],
     "Bracknell": [
-    "Bracknell"
+        "Bracknell"
     ],
     "Bradford": [
-    "Bradford",
-    "Bradford",
-    "Bradford-On-Avon",
-    "Bradford Leigh",
-    "Bradford Abbas"
+        "Bradford",
+        "Bradford-on-Avon",
+        "Bradford, Manchester",
+        "Bradford Abbas, Sherborne",
+        "Bradford-on-Tone, Taunton"
     ],
     "Brighton": [
-    "Brighton",
-    "Brighton-Le-Sands",
-    "Brighton Marina Village",
-    "Brighton Street Industrial Estate",
-    "Brightons"
+        "Brighton Marina, Brighton and Hove",
+        "Brighton and Hove",
+        "Brightons, Falkirk",
+        "Brighton, Truro",
+        "Brighton le Sands, Liverpool"
     ],
     "Bristol": [
-    "Bristol",
-    "Bristol International Airport",
-    "Briston"
+        "Bristol",
+        "Bristol City"
     ],
     "Bromley": [
-    "Bromley",
-    "Bromley",
-    "Bromley",
-    "Bromley",
-    "Bromley Cross"
+        "Bromley",
+        "Bromley By Bow, London",
+        "Bromley Cross, Bolton",
+        "Bromley Common, Bromley",
+        "Bromley Green, Ashford"
     ],
     "Burnley": [
-    "Burnley",
-    "Burley",
-    "Burley",
-    "Burley",
-    "Burley"
+        "Burnley",
+        "Burnley Lane, Burnley"
     ],
     "Burton-on-Trent": [
-    "Burton-On-Trent",
-    "Trent",
-    "Burton",
-    "Burton",
-    "Burton"
+        "Burton-on-Trent"
     ],
     "Bury": [
-    "Bury",
-    "Bury",
-    "Bury",
-    "Bury",
-    "Bury St. Edmunds"
+        "Bury St Edmunds, Bury Saint Edmunds",
+        "Bury",
+        "Bury, Huntingdon",
+        "Bury, Pulborough",
+        "Burythorpe, Malton"
     ],
     "Bury St Edmunds": [
-    "Bury St. Edmunds"
+        "Bury St Edmunds, Bury Saint Edmunds"
     ],
     "Camberley": [
-    "Camberley",
-    "Amberley",
-    "Amberley"
+        "Camberley"
     ],
     "Cambridge": [
-    "Cambridge",
-    "Cambridge",
-    "Cambridge Biomedical Campus",
-    "Cambridgeshire",
-    "Hambridge"
+        "Cambridge",
+        "Cambridgeshire",
+        "Cambridge, Gloucester"
     ],
     "Canterbury": [
-    "Canterbury"
+        "Canterbury",
+        "Canterbury, Banff"
     ],
     "Cardiff": [
-    "Cardiff",
-    "Cardiff International Airport",
-    "Cardiff Gate Business Park"
+        "Cardiff"
     ],
     "Carlisle": [
-    "Carlisle",
-    "Carlisle Airport",
-    "Carlisle Lake District Airport"
+        "Carlisle",
+        "Port Carlisle, Wigton"
     ],
     "Chatham": [
-    "Chatham",
-    "Chartham",
-    "Coatham Mundeville",
-    "Chartham Hatch"
+        "Chatham"
     ],
     "Chelmsford": [
-    "Chelmsford"
+        "Chelmsford"
     ],
     "Cheltenham": [
-    "Cheltenham",
-    "Cheltenham Trade Park"
+        "Cheltenham"
     ],
     "Chester": [
-    "Chester",
-    "Chester Le Street",
-    "Chester Moor",
-    "Chester Business Park",
-    "Chester West Employment Park"
+        "Chester",
+        "Chesterfield",
+        "Chester-le-Street",
+        "Chesterton, Newcastle",
+        "Chesterton, Bicester"
     ],
     "Chesterfield": [
-    "Chesterfield"
+        "Chesterfield",
+        "Chesterfield, Lichfield"
     ],
     "Clydebank": [
-    "Clydebank",
-    "Clydebank Business Park"
+        "Clydebank"
     ],
     "Colchester": [
-    "Colchester",
-    "Colchester Business Park"
+        "Colchester",
+        "Colchester Green, Bury Saint Edmunds"
     ],
     "Corby": [
-    "Corby",
-    "Corby Hill",
-    "Corby Glen",
-    "Corbridge",
-    "Corbane"
+        "Corby",
+        "Corby Glen, Grantham",
+        "Corby Hill, Carlisle"
     ],
     "Coventry": [
-    "Coventry",
-    "Coventry Walsgrave Triangle"
+        "Coventry",
+        "Covent Garden, London"
     ],
     "Craigavon": [
-    "Craigavon"
+        "Craigavon"
     ],
     "Crawley": [
-    "Crawley",
-    "Crawley",
-    "Crawley",
-    "Crawley Down",
-    "Cradley Heath"
+        "Crawley",
+        "Crawley Down",
+        "Crawley, Winchester",
+        "Crawley, Witney",
+        "Crawleyside, Bishop Auckland"
     ],
     "Croydon": [
-    "Croydon",
-    "Croydon",
-    "Croydon",
-    "Roydon",
-    "Roydon"
+        "Croydon",
+        "Croydon, Royston",
+        "Croydon Theas"
     ],
     "Cwmbran": [
-    "Cwmbran"
+        "Cwmbran",
+        "Cwmbrân Uchaf, Cwmbran"
     ],
     "Darlington": [
-    "Darlington",
-    "Farlington",
-    "Harlington",
-    "Arlington",
-    "Dartington"
+        "Darlington",
+        "Dartington Hall, Totnes",
+        "Darrington, Pontefract"
     ],
     "Dartford": [
-    "Dartford",
-    "Hartford",
-    "Hartford",
-    "Hartford Bridge",
-    "Hartford"
+        "Dartford"
     ],
     "Derby": [
-    "Derby",
-    "Derbyshire",
-    "Denby",
-    "Derry",
-    "Derry More"
+        "Derby",
+        "Derbyshire",
+        "Derbyhaven, Isle of Man",
+        "Matlock",
+        "Darby End, Dudley"
     ],
     "Doncaster": [
-    "Doncaster",
-    "Doncaster Finningley Airport"
+        "Doncaster",
+        "Little Canada, Doncaster"
     ],
     "Dudley": [
-    "Dudley",
-    "Dudley",
-    "Dudley Port",
-    "Dudleston",
-    "Dudleston Heath"
+        "Dudley",
+        "Dudley, Cramlington",
+        "Dudley Hill, Bradford",
+        "Dudley Port, Tipton",
+        "Dudley Wood, Dudley"
     ],
     "Dundee": [
-    "Dundee",
-    "Dundee Technology Park",
-    "Dundrennan"
+        "Dundee",
+        "Dundee City"
     ],
     "Dunfermline": [
-    "Dunfermline",
-    "Dunfermline East Business Parks"
+        "Dunfermline"
     ],
     "Ealing": [
-    "Ealing",
-    "Tealing",
-    "Easington",
-    "Healing",
-    "Easingwold"
+        "Ealing, London",
+        "West Ealing, London"
     ],
     "East Ham": [
-    "Eastham",
-    "Eastham",
-    "Easthampton",
-    "Easthampnett",
-    "East Hatley"
+        "East Ham, London",
+        "Easthampton, Leominster",
+        "Easthampstead, Bracknell",
+        "East Hampnett, Tangmere, Chichester",
+        "Eastham, Birkenhead, Wirral"
     ],
     "East Kilbride": [
-    "East Kilbride",
-    "East Kilbride"
+        "East Kilbride, Glasgow"
     ],
     "Eastbourne": [
-    "Eastbourne",
-    "Easebourne"
+        "Eastbourne",
+        "Eastbourne, Darlington"
     ],
     "Edinburgh": [
-    "Edinburgh",
-    "Edinburgh Technopole",
-    "Edinburgh Bioquarter",
-    "Edinburgh Airport"
+        "Edinburgh"
     ],
     "Exeter": [
-    "Exeter",
-    "Exeter Airport",
-    "Exeter Business Park",
-    "Exeter Road Industrial Estate"
+        "Exeter",
+        "Exeter Quay, Exeter",
+        "Exeter Road Industrial Estate, Okehampton"
     ],
     "Folkestone": [
-    "Folkestone"
+        "Folkestone"
     ],
     "Gateshead": [
-    "Gateshead",
-    "Gatesheath",
-    "Gatehead"
+        "Gateshead",
+        "Gatehead, Kilmarnock"
     ],
     "Glasgow": [
-    "Glasgow",
-    "Glasgow",
-    "Glasgow Airport",
-    "Glasgow Business Park",
-    "Glasgow Prestwick Intnl Airport"
+        "Glasgow",
+        "Glasgow City, Glasgow",
+        "Port Glasgow"
     ],
     "Gloucester": [
-    "Gloucester",
-    "Gloucester Business Park",
-    "Gloucestershire",
-    "Gloucestershire Airport"
+        "Gloucester",
+        "Gloucestershire",
+        "Cheltenham",
+        "Churchdown",
+        "Stonehouse"
     ],
     "Gravesend": [
-    "Gravesend",
-    "Grovesend",
-    "Grovesend"
+        "Gravesend"
     ],
     "Greenhithe": [
-    "Greenhithe"
+        "Greenhithe"
     ],
     "Greenock": [
-    "Greenock",
-    "Greenoak",
-    "Green Rocks"
+        "Greenock",
+        "Greenock West, Greenock"
     ],
     "Grimsby": [
-    "Grimsby",
-    "Grimsay",
-    "Grimsay Island"
+        "Grimsby"
     ],
     "Guildford": [
-    "Guildford"
+        "Guildford",
+        "Gilford, Craigavon"
     ],
     "Hamilton": [
-    "Hamilton",
-    "Hamilton",
-    "Hamilton Intnl Technology Park",
-    "Hamiltonsbawn"
+        "Hamilton",
+        "Hamilton, Leicester",
+        "Hamiltonsbawn, Armagh"
     ],
     "Hammersmith": [
-    "Hammersmith",
-    "Hammersmith and Fulham"
+        "Hammersmith, London"
     ],
     "Harlow": [
-    "Harlow",
-    "Harlow Wood",
-    "Harlow Green",
-    "Harlow Hill",
-    "Harlow Innovation Park"
+        "Harlow",
+        "Harlow Wood, Mansfield",
+        "Harlow Hill, Newcastle upon Tyne",
+        "Harlow Green, Gateshead"
     ],
     "Harrogate": [
-    "Harrogate"
+        "Harrogate",
+        "Harrowgate Hill, Darlington"
     ],
     "Harrow": [
-    "Harrow",
-    "Harrow",
-    "Harrow Weald",
-    "Harrow Hill",
-    "Harrowden"
+        "Harrow",
+        "Harrowbarrow, Callington",
+        "Harrowden, Bedford",
+        "Harrowgate Hill, Darlington",
+        "Harrogate"
     ],
     "Hartlepool": [
-    "Hartlepool"
+        "Hartlepool"
     ],
     "Hastings": [
-    "Hastings",
-    "Hastings",
-    "Hastingwood",
-    "Hastingleigh"
+        "Hastings",
+        "Hastings Hill, Sunderland",
+        "Hastings, Ilminster"
     ],
     "Hemel Hempstead": [
-    "Hemel Hempstead",
-    "Hemel Hempstead Industrial Estate"
+        "Hemel Hempstead",
+        "Hemel Hempstead Industrial Estate, London, Hemel Hempstead"
     ],
     "Hereford": [
-    "Hereford",
-    "Herefordshire",
-    "Hertford",
-    "Hertfordshire",
-    "Shereford"
+        "Hereford",
+        "Herefordshire"
     ],
     "High Wycombe": [
-    "High Wycombe"
+        "High Wycombe",
+        "Wycombe Marsh, High Wycombe"
     ],
     "Hounslow": [
-    "Hounslow",
-    "Hounslow"
+        "Hounslow",
+        "Hounslow Green, Dunmow"
     ],
     "Huddersfield": [
-    "Huddersfield"
+        "Huddersfield"
     ],
     "Hull": [
-    "Hull",
-    "Hullbridge",
-    "Hulland Ward",
-    "Hulland Village",
-    "Hullavington"
+        "Hull",
+        "Hullbridge",
+        "Hullavington, Chippenham",
+        "Hulland Ward, Ashbourne",
+        "Hull Bridge, Beverley"
     ],
     "Ilford": [
-    "Ilford",
-    "Ilford",
-    "Milford Haven",
-    "Alford",
-    "Alford"
+        "Ilford",
+        "Ilford, Ilminster",
+        "Ilfordas"
     ],
     "Inverness": [
-    "Inverness",
-    "Inverness-Shire",
-    "Inverness Airport",
-    "Inverness Business & Retail Park"
+        "Inverness"
     ],
     "Ipswich": [
-    "Ipswich"
+        "Ipswich",
+        "Ipswich Village Development, Ipswich"
     ],
     "Irvine": [
-    "Irvine",
-    "Irvine Industrial Estate",
-    "Irvinestown"
+        "Irvine",
+        "Irvinestown, Enniskillen",
+        "Irvine Industrial Estate, Irvine"
     ],
     "Kent": [
-    "Kent",
-    "Kent International Airport",
-    "Kenton",
-    "Kenton",
-    "Kentallen"
+        "Kent",
+        "Kentford, Newmarket",
+        "Kentmere, Kendal",
+        "Kents Hill, Milton Keynes",
+        "Kentisbeare, Cullompton"
     ],
     "Kings Lynn": [
-    "King'S Lynn"
+        "King's Lynn"
     ],
     "Kingston Upon Thames": [
-    "Kingston Upon Thames",
-    "Kingston upon Thames"
+        "Kingston upon Thames"
     ],
     "Lancaster": [
-    "Lancaster",
-    "Ancaster"
+        "Lancaster",
+        "Lancaster West Estate, London",
+        "Lanchester"
     ],
     "Leeds": [
-    "Leeds",
-    "Leeds",
-    "Leeds Bradford Airport",
-    "Leedstown",
-    "Leedon"
+        "Leeds",
+        "Leedstown, Hayle",
+        "Leeds, Maidstone"
     ],
     "Leicester": [
-    "Leicester",
-    "Leicester Forest West",
-    "Leicester Forest East",
-    "Leicestershire"
+        "Leicester",
+        "Leicestershire",
+        "Leicester Forest East, Leicester",
+        "Waltham on the Wolds, Melton Mowbray"
     ],
     "Lincoln": [
-    "Lincoln",
-    "Lincoln Hill",
-    "Lincolnshire"
+        "Lincoln",
+        "Lincolnshire",
+        "Lincolnshire du Nord",
+        "Lincolnshire du Nord-Est"
     ],
     "Lisburn": [
-    "Lisburn",
-    "Gisburn"
+        "Lisburn",
+        "Lisburn and Castlereagh"
     ],
     "Liverpool": [
-    "Liverpool",
-    "Liverpool Airport",
-    "Liverpool Shopping Park",
-    "Liverpool Shopping Park"
+        "Liverpool"
     ],
     "Livingston": [
-    "Livingston",
-    "Livingston Village"
+        "Livingston",
+        "Livingston Village, Livingston"
     ],
     "Llandudno": [
-    "Llandudno",
-    "Llandudno Junction"
+        "Llandudno",
+        "Llandudno Junction"
     ],
     "Llanelli": [
-    "Llanelli",
-    "Llanelltyd",
-    "Llanellen",
-    "Llanelly Hill",
-    "Llaneilian"
+        "Llanelli",
+        "Llanelli, Abergavenny",
+        "Llanelly Hill, Abergavenny"
     ],
     "London": [
-    "London",
-    "London Colney",
-    "London Apprentice",
-    "London Heathrow Airport",
-    "London Stansted Airport"
+        "London",
+        "Londonderry",
+        "London Colney, St Albans",
+        "Londonderry, Northallerton",
+        "Wembley"
     ],
     "Londonderry": [
-    "Londonderry",
-    "Londonderry"
+        "Londonderry",
+        "Londonderry, Northallerton",
+        "Londonderry, Oldbury"
     ],
     "Loughborough": [
-    "Loughborough"
+        "Loughborough"
     ],
     "Luton": [
-    "Luton",
-    "Luton",
-    "Lufton",
-    "Lupton",
-    "Suton"
+        "Luton",
+        "Luton, Newton Abbot",
+        "Luton, Chatham",
+        "Luton, Honiton",
+        "Lutton, Spalding"
     ],
     "Maidstone": [
-    "Maidstone",
-    "Mainstone"
+        "Maidstone"
     ],
     "Manchester": [
-    "Manchester",
-    "Manchester Airport",
-    "Manchester Science Park",
-    "Lanchester"
+        "Manchester",
+        "Salford",
+        "Hyde",
+        "Sale"
     ],
     "Mansfield": [
-    "Mansfield",
-    "Mansfield Woodhouse",
-    "Manfield"
+        "Mansfield",
+        "Mansfield Woodhouse, Mansfield",
+        "Mansfield, Cumnock",
+        "Mansfield Urban Area, Mansfield"
     ],
     "Middlesbrough": [
-    "Middlesbrough"
+        "Middlesbrough"
     ],
     "Milton Keynes": [
-    "Milton Keynes",
-    "Milton Keynes Village"
+        "Milton Keynes",
+        "Milton Keynes Village, Milton Keynes"
     ],
     "Motherwell": [
-    "Motherwell"
+        "Motherwell"
     ],
     "Newcastle-Upon-Tyne": [
-    "Newcastle Upon Tyne",
-    "Newcastle",
-    "Newcastle",
-    "Newcastle Emlyn",
-    "Newcastle"
+        "Newcastle upon Tyne"
     ],
     "Newport": [
-    "Newport",
-    "Newport",
-    "Newport",
-    "Newport",
-    "Newport"
+        "Newport",
+        "Newport Pagnell",
+        "Newport, Pembrokeshire, Newport",
+        "Newport, Saffron Walden",
+        "Newport-on-Tay"
     ],
     "Newry": [
-    "Newry",
-    "New Romney",
-    "New Radnor",
-    "New Rossington",
-    "New Ridley"
+        "Newry",
+        "Newry, Mourne and Down"
     ],
-    "Newtownabbey": [
-    "Newtownabbey"
-    ],
+    "Newtownabbey": [],
     "Newtownards": [
-    "Newtownards"
+        "Newtownards"
     ],
     "Northampton": [
-    "Northampton",
-    "Northamptonshire",
-    "Forthampton"
+        "Northampton",
+        "Northamptonshire",
+        "Moulton Park Industrial Estate, Northampton"
     ],
     "Norwich": [
-    "Norwich",
-    "Horwich"
+        "Norwich",
+        "Norwich Over the Water, Norwich"
     ],
     "Nottingham": [
-    "Nottingham",
-    "Nottinghamshire",
-    "Cottingham",
-    "Cottingham"
+        "Nottingham",
+        "Nottinghamshire",
+        "Nottinghamshire, Nottingham",
+        "Nottingham, Lybster",
+        "Notting Hill, London"
     ],
     "Oldham": [
-    "Oldham",
-    "Oldhamstocks",
-    "Old Hall Green",
-    "Old Hall",
-    "Old Hall"
+        "Oldham",
+        "Oldhamstocks, Cockburnspath",
+        "Oldham Edge, Oldham"
     ],
     "Omagh": [
-    "Omagh",
-    "Magherafelt",
-    "Maghera",
-    "Maghull",
-    "Magheramorne"
+        "Omagh"
     ],
     "Oxford": [
-    "Oxford",
-    "Oxford Airport",
-    "Oxfordshire",
-    "Oxford Business Park North",
-    "Oxford Business Park South"
+        "Oxford",
+        "Oxfordshire",
+        "Didcot",
+        "Thame"
     ],
     "Peckham": [
-    "Deckham",
-    "Leckhampstead",
-    "Leckhampton",
-    "Leckhampton Hill",
-    "Beckhampton"
+        "Peckham, London"
     ],
     "Perth": [
-    "Perth",
-    "Perthshire",
-    "Perton",
-    "Pertenhall",
-    "Perton"
+        "Perth",
+        "Perth and Kinross",
+        "Perthcelyn, Mountain Ash",
+        "Perthy, Ellesmere",
+        "Pert, Laurencekirk"
     ],
     "Peterborough": [
-    "Peterborough"
+        "Peterborough"
     ],
     "Plymouth": [
-    "Plymouth"
+        "Plymouth",
+        "Devonport, Plymouth"
     ],
     "Poole": [
-    "Poole",
-    "Poole",
-    "Poole",
-    "Poole Keynes",
-    "Poolewe"
+        "Poole",
+        "Pooley Bridge, Penrith",
+        "Poolewe, Achnasheen",
+        "Poole Keynes, Cirencester",
+        "Poole, Nantwich"
     ],
     "Portsmouth": [
-    "Portsmouth"
+        "Portsmouth",
+        "HM Naval Base, Portsmouth"
     ],
     "Preston": [
-    "Preston",
-    "Preston",
-    "Preston",
-    "Preston",
-    "Preston"
+        "Preston",
+        "Prestonpans",
+        "Preston Brook",
+        "Preston, Hull",
+        "Preston Candover, Basingstoke"
     ],
     "Reading": [
-    "Reading",
-    "Redding",
-    "Headingley",
-    "Headington",
-    "Reddingmuirhead"
+        "Reading",
+        "Reading Street, Tenterden",
+        "Reading Street, Broadstairs",
+        "Reading Green, Eye"
     ],
     "Redditch": [
-    "Redditch"
+        "Redditch"
     ],
     "Romford": [
-    "Romford",
-    "Comford",
-    "Rumford",
-    "Cromford",
-    "Rumford"
+        "Romford",
+        "Romford, Verwood",
+        "Rumford, Falkirk"
     ],
     "Rotherham": [
-    "Rotherham"
+        "Rotherham"
     ],
     "Rushden": [
-    "Rushden",
-    "Rushden",
-    "Rushen Abbey",
-    "Rushenden"
+        "Rushden",
+        "Rushden, Buntingford"
     ],
     "Salisbury": [
-    "Salisbury",
-    "Salesbury",
-    "Sarisbury Green"
+        "Salisbury",
+        "Sarisbury, Southampton",
+        "Sarisbury Green, Southampton"
     ],
     "Scunthorpe": [
-    "Scunthorpe",
-    "Sculthorpe"
+        "Scunthorpe"
     ],
     "Sheffield": [
-    "Sheffield",
-    "Sheffield Park",
-    "Shelfield",
-    "Shelfield",
-    "Shenfield"
+        "Sheffield",
+        "Sheffield, Penzance",
+        "Sheffield Green, Uckfield",
+        "Sheffield Lane Top, Sheffield",
+        "Sheffield Bottom, Reading"
     ],
     "Shrewsbury": [
-    "Shrewsbury"
+        "Shrewsbury"
     ],
     "Slough": [
-    "Slough",
-    "Slough Green",
-    "Loughton",
-    "Loughborough",
-    "Cloughoge"
+        "Slough",
+        "Slough Trading Estate, Slough",
+        "Slough Green, Taunton",
+        "Slough Green, Haywards Heath",
+        "Slough Hill, Bury Saint Edmunds"
     ],
     "Southampton": [
-    "Southampton",
-    "Southampton International Airport",
-    "Southampton Science Park"
+        "Southampton"
     ],
     "Southend-on-Sea": [
-    "Southend-On-Sea",
-    "Southend",
-    "Southend",
-    "Southend",
-    "Southend"
+        "Southend-on-Sea"
     ],
     "Southport": [
-    "Southport",
-    "South Poorton"
+        "Southport",
+        "Stourport-on-Severn"
     ],
     "Stafford": [
-    "Stafford",
-    "Stafford Cross",
-    "Staffordshire",
-    "Staffordshire Technology Park",
-    "Stanford-Le-Hope"
+        "Stafford",
+        "Staffordshire",
+        "Staffordstown, Antrim",
+        "Stratford-upon-Avon",
+        "The Heath, Uttoxeter"
     ],
     "Staines-upon-Thames": [
-    "Staines-Upon-Thames",
-    "Thames Ditton",
-    "Staines Green",
-    "Thames View Industrial Park",
-    "Thame"
+        "Staines-upon-Thames"
     ],
     "Stevenage": [
-    "Stevenage"
+        "Stevenage"
     ],
     "Stirling": [
-    "Stirling",
-    "Stirlingshire",
-    "Skirling",
-    "Stillington",
-    "Stillingfleet"
+        "Stirling",
+        "Stirling, Peterhead"
     ],
     "Stockport": [
-    "Stockport"
+        "Stockport"
     ],
     "Stoke-On-Trent": [
-    "Stoke-On-Trent",
-    "Trent",
-    "Stoke",
-    "Stoke",
-    "Stoke"
+        "Stoke-on-Trent",
+        "Trentham, Stoke-on-Trent",
+        "Trent Vale, Stoke-on-Trent"
     ],
     "Stratford": [
-    "Stratford-Upon-Avon",
-    "Stratford Tony",
-    "Stratford Enterprise Park",
-    "Stratford St. Mary",
-    "Stratford Sub Castle"
+        "Stratford, London",
+        "Stratford-upon-Avon",
+        "Stratford St Mary, Colchester",
+        "Stratford St Andrew, Saxmundham",
+        "Stratford Tony, Salisbury"
     ],
     "Sunderland": [
-    "Sunderland",
-    "Sunderland",
-    "Sunderland Bridge",
-    "Sunderland Point",
-    "Sunderland Enterprise Park"
+        "Sunderland",
+        "Sunderland Point, Morecambe",
+        "Sunderland Bridge, Durham",
+        "Sunderland, Cockermouth",
+        "Sunderlandwick, Driffield"
     ],
     "Sutton": [
-    "Sutton",
-    "Sutton",
-    "Sutton",
-    "Sutton",
-    "Sutton"
+        "Sutton",
+        "Sutton Coldfield, Birmingham",
+        "Sutton-in-Ashfield",
+        "Sutton on Sea, Mablethorpe",
+        "Sutton Bridge, Spalding"
     ],
     "Swansea": [
-    "Swansea",
-    "Swansea Vale",
-    "Swansea Airport",
-    "Swansea Enterprise Park"
+        "Swansea",
+        "Swansea Vale, Llansamlet, Swansea"
     ],
     "Swindon": [
-    "Swindon",
-    "Swindon",
-    "Swindon Village",
-    "Swinton",
-    "Swinton"
+        "Swindon",
+        "Swindon Village, Cheltenham",
+        "Swindon, Staffordshire"
     ],
     "Tamworth": [
-    "Tamworth",
-    "Tadworth",
-    "Tatworth",
-    "Hamworthy",
-    "Tanworth-In-Arden"
+        "Tamworth",
+        "Tamworth In Arden, Solihull",
+        "Tamworth Green, Boston"
     ],
     "Taunton": [
-    "Taunton",
-    "Caunton",
-    "Taynton",
-    "Launton",
-    "Haunton"
+        "Taunton",
+        "Taunton, Ashton-under-Lyne"
     ],
     "Telford": [
-    "Telford",
-    "Telford Way Industrial Estate",
-    "Belford",
-    "Yelford",
-    "Welford"
+        "Telford",
+        "Telford and Wrekin",
+        "Telford Way Industrial Estate, Kettering"
     ],
     "Torquay": [
-    "Torquay"
+        "Torquay"
     ],
     "Truro": [
-    "Truro",
-    "Trudoxhill"
+        "Truro"
     ],
     "Uxbridge": [
-    "Uxbridge",
-    "Axbridge",
-    "Axbridge",
-    "Oxbridge"
+        "Uxbridge"
     ],
     "Wakefield": [
-    "Wakefield",
-    "Wakefield 41 Business Park",
-    "Wakefield 41 Industrial Estate",
-    "Pakefield",
-    "Wokefield Green"
+        "Wakefield"
     ],
     "Wallasey": [
-    "Wallasey",
-    "Wallasea Island"
+        "Wallasey"
     ],
     "Walsall": [
-    "Walsall",
-    "Walsall Wood",
-    "Halsall",
-    "Balsall Common",
-    "Balsall Heath"
+        "Walsall",
+        "Walsall Wood, Walsall"
     ],
     "Warrington": [
-    "Warrington",
-    "Warrington",
-    "Warrington",
-    "Harrington",
-    "Carrington"
+        "Warrington",
+        "Great Sankey",
+        "Warringtonas, Peterborough"
     ],
     "Watford": [
-    "Watford",
-    "Watford",
-    "Ratford",
-    "Matford",
-    "Wayford"
+        "Watford",
+        "Watford, Northampton",
+        "Watford Park, Caerphilly"
     ],
     "Wembley": [
-    "Wembley",
-    "Weobley"
+        "Wembley",
+        "Wembley Park, Wembley",
+        "Wembley Thuaidh, Wembley"
     ],
     "West Bromwich": [
-    "West Bromwich"
+        "West Bromwich"
     ],
     "West Thurrock": [
-    "West Thurrock"
+        "West Thurrock, Grays"
     ],
     "Wigan": [
-    "Wigan",
-    "Wigland"
+        "Wigan",
+        "Wiganthorpe, York"
     ],
     "Winchester": [
-    "Winchester",
-    "Binchester",
-    "Binchester Moor"
+        "Winchester"
     ],
     "Woking": [
-    "Woking",
-    "Wokingham",
-    "Workington"
+        "Woking",
+        "Wokingham",
+        "Workington"
     ],
     "Wolverhampton": [
-    "Wolverhampton"
+        "Wolverhampton"
     ],
     "Worcester": [
-    "Worcester",
-    "Worcester Park",
-    "Worcestershire"
+        "Worcester",
+        "Worcestershire",
+        "Worcester Park"
     ],
     "Wrexham": [
-    "Wrexham",
-    "Wrexham Industrial Estate",
-    "Wrexham Technology Park",
-    "Wexham",
-    "Wroxham"
+        "Wrexham"
     ],
     "Yeovil": [
-    "Yeovil",
-    "Yeovil Marsh",
-    "Yeovilton",
-    "Yeo Vale"
+        "Yeovil",
+        "Yeovilton, Yeovil",
+        "Yeovil Marsh, Yeovil"
     ],
     "York": [
-    "York",
-    "York Business Park",
-    "York Road Business Park",
-    "Yorkley",
-    "Yorkley Slade"
+        "York",
+        "Yorkley, Lydney",
+        "Yorkletts, Whitstable",
+        "York Town, Camberley",
+        "Halifax"
     ]
-    }
+}
 
 const func = () => {
     const result = {};
 
-    for (let key of Object.keys(locateOld)) {
+    for (let key of Object.keys(locateData)) {
         result[key] = {
-            loqateOld: locateOld[key],
-            loqateNew: locateNew[key]
+            loqate: locateData[key],
+            google: googleData[key]
         }
     }
 
