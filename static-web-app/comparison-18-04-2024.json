@@ -1,7 +1,8 @@
 {
     "Aberdeen": {
         "loqate": [
-            "Aberdeen, Aberdeenshire"
+            "Aberdeen, Aberdeenshire",
+            "Aberdeen Airport, Dyce"
         ],
         "google": [
             "Aberdeen",
@@ -21,9 +22,9 @@
         "google": [
             "Ayr",
             "Ayr, Saint Ives",
-            "Troon",
             "Irvine",
-            "Saltcoats"
+            "Saltcoats",
+            "Troon"
         ]
     },
     "Ballymena": {
@@ -92,10 +93,10 @@
     "Bath": {
         "loqate": [
             "Bath, Avon",
+            "Bath Business Park, Peasedown St. John",
             "Bathgate, West Lothian",
             "Bathford, Bath",
-            "Bathwick, Bath",
-            "Bathley, Newark"
+            "Bathwick, Bath"
         ],
         "google": [
             "Bath",
@@ -111,14 +112,14 @@
             "Belford, Northumberland",
             "Redford, Arbroath",
             "Redford, Midhurst",
-            "Besford, Worcester"
+            "Edford, Holcombe"
         ],
         "google": [
             "Bedford",
-            "Ireland, Shefford",
             "Sandy",
+            "Ireland, Shefford",
             "Bidford-on-Avon, Alcester",
-            "Clapham, Bedford"
+            "Clifton"
         ]
     },
     "Belfast": {
@@ -131,7 +132,8 @@
     },
     "Bexleyheath": {
         "loqate": [
-            "Bexleyheath, Kent"
+            "Bexleyheath, Kent",
+            "Bexleyheath, Bexley, London"
         ],
         "google": [
             "Bexleyheath"
@@ -175,10 +177,10 @@
     "Blackpool": {
         "loqate": [
             "Blackpool, Lancashire",
+            "Blackpool, Yealmpton",
             "Blackpool, Dartmouth",
             "Blackpool Bridge, Narberth",
-            "Blackpool Airport, Blackpool",
-            "Blackpool Corner, Axminster"
+            "Blackpool Airport, Blackpool"
         ],
         "google": [
             "Blackpool",
@@ -199,14 +201,15 @@
         "google": [
             "Bolton",
             "Bolton Abbey, Skipton",
-            "Bolton upon Dearne",
             "Bolton-le-Sands",
+            "Bolton upon Dearne",
             "Bolton by Bowland, Clitheroe"
         ]
     },
     "Bournemouth": {
         "loqate": [
-            "Bournemouth, Dorset"
+            "Bournemouth, Dorset",
+            "Bournemouth International Airport, Hurn"
         ],
         "google": [
             "Bournemouth"
@@ -260,16 +263,17 @@
         ],
         "google": [
             "Bristol",
-            "Bristol City"
+            "Bristol City",
+            "Lawrence Weston, Bristol"
         ]
     },
     "Bromley": {
         "loqate": [
             "Bromley, Kent",
             "Bromley, London",
+            "Bromley, Wortley",
             "Bromley, Bridgnorth",
-            "Bromley Cross, Bolton",
-            "Bromley Hayes, Lichfield"
+            "Bromley Cross, Bolton"
         ],
         "google": [
             "Bromley",
@@ -297,8 +301,8 @@
             "Burton-On-Trent, Staffordshire",
             "Trent, Sherborne",
             "Burton, Neston",
-            "Burton, Lincoln",
-            "Burton, Tarporley"
+            "Burton, Rossett",
+            "Burton, Lincoln"
         ],
         "google": [
             "Burton-on-Trent"
@@ -306,17 +310,17 @@
     },
     "Bury": {
         "loqate": [
+            "Bury, Ramsey",
             "Bury, Greater Manchester",
             "Bury, Dulverton",
             "Bury, Pulborough",
-            "Bury St. Edmunds, Suffolk",
-            "Burythorpe, Malton"
+            "Bury St. Edmunds, Suffolk"
         ],
         "google": [
             "Bury St Edmunds, Bury Saint Edmunds",
             "Bury",
-            "Bury, Huntingdon",
             "Bury, Pulborough",
+            "Bury, Huntingdon",
             "Burythorpe, Malton"
         ]
     },
@@ -342,9 +346,9 @@
         "loqate": [
             "Cambridge, Cambridgeshire",
             "Cambridge, Gloucester",
+            "Cambridge Heath, Tower Hamlets, London",
             "Cambridge Biomedical Campus, Cambridge",
-            "Hambridge, Langport",
-            "Combridge, Uttoxeter"
+            "Hambridge, Langport"
         ],
         "google": [
             "Cambridge",
@@ -364,7 +368,9 @@
     },
     "Cardiff": {
         "loqate": [
-            "Cardiff, South Glamorgan"
+            "Cardiff, South Glamorgan",
+            "Cardiff International Airport, Rhoose",
+            "Cardiff Gate Business Park, Pontprennau"
         ],
         "google": [
             "Cardiff"
@@ -459,7 +465,7 @@
             "Corby Hill, Carlisle",
             "Corby Glen, Grantham",
             "Corbridge, Northumberland",
-            "Corbet, Banbridge"
+            "Corbane, Rosslea"
         ],
         "google": [
             "Corby",
@@ -507,8 +513,8 @@
             "Croydon, Surrey",
             "Croydon, London",
             "Croydon, Royston",
-            "Roydon, Diss",
-            "Roydon, Harlow"
+            "Croydon Airport, Croydon, London",
+            "Roydon, Diss"
         ],
         "google": [
             "Croydon",
@@ -530,8 +536,8 @@
             "Darlington, County Durham",
             "Farlington, York",
             "Harlington, Hayes",
-            "Dartington, Totnes",
-            "Arlington, Polegate"
+            "Arlington, Bibury",
+            "Dartington, Totnes"
         ],
         "google": [
             "Darlington",
@@ -555,16 +561,16 @@
         "loqate": [
             "Derby, Derbyshire",
             "Denby, Ripley",
-            "Derry Hill, Calne",
-            "Derwydd, Burry Port",
-            "Derrynoose, Armagh"
+            "Derry, Mackan",
+            "Derry More, Kesh",
+            "Derryneeve, Kesh"
         ],
         "google": [
             "Derby",
             "Derbyshire",
             "Derbyhaven, Isle of Man",
             "Matlock",
-            "Ripley"
+            "Darby End, Dudley"
         ]
     },
     "Doncaster": {
@@ -616,28 +622,29 @@
     "Ealing": {
         "loqate": [
             "Ealing, London",
+            "Ealing Common, Ealing, London",
+            "Ealing Broadway, Ealing, London",
             "Tealing, Dundee",
-            "Easington, Hull",
-            "Healing, Grimsby",
-            "Easingwold, York"
+            "Easington, Hull"
         ],
         "google": [
             "Ealing, London",
-            "West Ealing, London"
+            "West Ealing, London",
+            "Ellington, Huntingdon"
         ]
     },
     "East Ham": {
         "loqate": [
             "Eastham, Wirral",
             "Eastham, Tenbury Wells",
-            "Easthampnett, Chichester",
-            "East Hatley, Sandy",
-            "East Hanney, Wantage"
+            "Easthampton, Shobdon",
+            "East Ham, Newham, London",
+            "Easthampnett, Chichester"
         ],
         "google": [
             "East Ham, London",
-            "Easthampstead, Bracknell",
             "Easthampton, Leominster",
+            "Easthampstead, Bracknell",
             "East Hampnett, Tangmere, Chichester",
             "Eastham, Birkenhead, Wirral"
         ]
@@ -664,6 +671,7 @@
     "Edinburgh": {
         "loqate": [
             "Edinburgh, Midlothian",
+            "Edinburgh Technopole, Milton Bridge",
             "Edinburgh Bioquarter, Edinburgh",
             "Edinburgh Airport, Edinburgh"
         ],
@@ -674,6 +682,7 @@
     "Exeter": {
         "loqate": [
             "Exeter, Devon",
+            "Exeter Airport, Clyst Honiton",
             "Exeter Business Park, Exeter",
             "Exeter Road Industrial Estate, Okehampton"
         ],
@@ -694,6 +703,7 @@
     "Gateshead": {
         "loqate": [
             "Gateshead, Tyne and Wear",
+            "Gatesheath, Tattenhall",
             "Gatehead, Kilmarnock"
         ],
         "google": [
@@ -704,8 +714,9 @@
         "loqate": [
             "Glasgow, Lanarkshire",
             "Glasgow, Dunbartonshire",
-            "Glasgow Prestwick Intnl Airport, Prestwick",
-            "Glasgow East Investment Park, Glasgow"
+            "Glasgow Airport, Abbotsinch",
+            "Glasgow Business Park, Baillieston",
+            "Glasgow Prestwick Intnl Airport, Prestwick"
         ],
         "google": [
             "Glasgow",
@@ -715,20 +726,23 @@
     },
     "Gloucester": {
         "loqate": [
-            "Gloucester, Gloucestershire"
+            "Gloucester, Gloucestershire",
+            "Gloucester Business Park, Brockworth",
+            "Gloucestershire Airport, Staverton"
         ],
         "google": [
             "Gloucester",
             "Gloucestershire",
             "Cheltenham",
-            "Hardwicke",
-            "Churchdown"
+            "Stroud",
+            "Stonehouse"
         ]
     },
     "Gravesend": {
         "loqate": [
             "Gravesend, Kent",
-            "Grovesend, Swansea"
+            "Grovesend, Swansea",
+            "Grovesend, Thornbury"
         ],
         "google": [
             "Gravesend"
@@ -745,7 +759,8 @@
     "Greenock": {
         "loqate": [
             "Greenock, Renfrewshire",
-            "Greenoak, Goole"
+            "Greenoak, Goole",
+            "Green Rocks, Newlyn"
         ],
         "google": [
             "Greenock",
@@ -775,6 +790,7 @@
         "loqate": [
             "Hamilton, Lanarkshire",
             "Hamilton, Leicester",
+            "Hamilton Intnl Technology Park, Blantyre",
             "Hamiltonsbawn, Armagh"
         ],
         "google": [
@@ -786,6 +802,8 @@
     "Hammersmith": {
         "loqate": [
             "Hammersmith, Ripley",
+            "Hammersmith, Hammersmith and Fulham, London",
+            "Hammersmith Broadway, Hammersmith, London",
             "Hammersmith and Fulham, London"
         ],
         "google": [
@@ -802,8 +820,8 @@
         ],
         "google": [
             "Harlow",
-            "Harlow Wood, Mansfield",
             "Harlow Hill, Newcastle upon Tyne",
+            "Harlow Wood, Mansfield",
             "Harlow Green, Gateshead"
         ]
     },
@@ -822,12 +840,12 @@
             "Harrow, London",
             "Harrow Weald, Harrow",
             "Harrow Hill, Drybrook",
-            "Harrowden, Bedford"
+            "Harrow Weald, Harrow, London"
         ],
         "google": [
             "Harrow",
-            "Harrowbarrow, Callington",
             "Harrogate",
+            "Harrowbarrow, Callington",
             "Harrowden, Bedford",
             "Harrowgate Hill, Darlington"
         ]
@@ -887,7 +905,10 @@
     "Hounslow": {
         "loqate": [
             "Hounslow, Middlesex",
-            "Hounslow, London"
+            "Hounslow, London",
+            "Hounslow, Hounslow, London",
+            "Hounslow Central, Hounslow, London",
+            "Hounslow East, Hounslow, London"
         ],
         "google": [
             "Hounslow",
@@ -915,27 +936,29 @@
             "Hullbridge",
             "Hullavington, Chippenham",
             "Hulland Ward, Ashbourne",
-            "Hulland, Ashbourne"
+            "Hull Bridge, Beverley"
         ]
     },
     "Ilford": {
         "loqate": [
             "Ilford, Essex",
             "Ilford, Ilminster",
+            "Ilford, Redbridge, London",
             "Milford Haven, Dyfed",
-            "Alford, Lincolnshire",
-            "Alford, Aberdeenshire"
+            "Alford, Lincolnshire"
         ],
         "google": [
             "Ilford",
             "Ilford, Ilminster",
+            "Milford Haven",
             "Ilfordas",
-            "Milford Haven"
+            "Iford, Bournemouth"
         ]
     },
     "Inverness": {
         "loqate": [
             "Inverness, Inverness-Shire",
+            "Inverness Airport, Dalcross",
             "Inverness Business & Retail Park, Inverness"
         ],
         "google": [
@@ -965,17 +988,17 @@
     },
     "Kent": {
         "loqate": [
+            "Kent International Airport, Manston",
             "Kenton, Harrow",
             "Kenton, Exeter",
             "Kentallen, Appin",
-            "Kentmere, Kendal",
-            "Kentra, Acharacle"
+            "Kentmere, Kendal"
         ],
         "google": [
             "Kent",
             "Kentmere, Kendal",
-            "Kentford, Newmarket",
             "Kents Hill, Milton Keynes",
+            "Kentford, Newmarket",
             "Kentisbeare, Cullompton"
         ]
     },
@@ -1011,9 +1034,9 @@
         "loqate": [
             "Leeds, West Yorkshire",
             "Leeds, Maidstone",
+            "Leeds Bradford Airport, Yeadon",
             "Leedstown, Hayle",
-            "Leedon, Leighton Buzzard",
-            "Leek, Staffordshire"
+            "Leedon, Leighton Buzzard"
         ],
         "google": [
             "Leeds",
@@ -1024,6 +1047,7 @@
     "Leicester": {
         "loqate": [
             "Leicester, Leicestershire",
+            "Leicester Square, The West End, London",
             "Leicester Forest West, Leicester",
             "Leicester Forest East, Leicester"
         ],
@@ -1031,19 +1055,19 @@
             "Leicester",
             "Leicestershire",
             "Leicester Forest East, Leicester",
-            "Waltham on the Wolds, Melton Mowbray",
-            "Frog Island, Leicester"
+            "Waltham on the Wolds, Melton Mowbray"
         ]
     },
     "Lincoln": {
         "loqate": [
             "Lincoln, Lincolnshire",
-            "Lincoln Hill, Ross-On-Wye"
+            "Lincoln Hill, Ross-On-Wye",
+            "Lincoln's Inn, Holborn, London"
         ],
         "google": [
             "Lincoln",
             "Lincolnshire",
-            "Lincolnshire du Nord",
+            "Lincolnshire Norte",
             "Lincolnshire Noreste"
         ]
     },
@@ -1061,7 +1085,8 @@
         "loqate": [
             "Liverpool, Merseyside",
             "Liverpool Airport, Liverpool",
-            "Liverpool Shopping Park, Liverpool"
+            "Liverpool Shopping Park, Liverpool",
+            "Liverpool Shopping Park, Old Swan"
         ],
         "google": [
             "Liverpool"
@@ -1107,15 +1132,15 @@
             "London",
             "London Colney, St. Albans",
             "London Apprentice, St. Austell",
-            "London Heathrow Airport, Hounslow",
-            "London Stansted Airport, Stansted"
+            "London Wall, City of London, London",
+            "London Heathrow Airport, Hounslow"
         ],
         "google": [
             "London",
             "Londonderry",
             "London Colney, St Albans",
             "Londonderry, Northallerton",
-            "Wembley"
+            "London Apprentice, Saint Austell"
         ]
     },
     "Londonderry": {
@@ -1140,16 +1165,16 @@
     "Luton": {
         "loqate": [
             "Luton, Bedfordshire",
+            "Luton, Chudleigh",
             "Lufton, Yeovil",
             "Lupton, Brixham",
-            "Suton, Wymondham",
-            "Lutton, Spalding"
+            "Suton, Wymondham"
         ],
         "google": [
             "Luton",
             "Luton, Newton Abbot",
-            "Luton, Chatham",
             "Luton, Honiton",
+            "Luton, Chatham",
             "Warden Hills, Luton"
         ]
     },
@@ -1171,8 +1196,7 @@
         ],
         "google": [
             "Manchester",
-            "Salford",
-            "Hyde"
+            "Sale"
         ]
     },
     "Mansfield": {
@@ -1193,8 +1217,7 @@
             "Middlesbrough, Cleveland"
         ],
         "google": [
-            "Middlesbrough",
-            "Teesside Industrial Estate, Stockton-on-Tees"
+            "Middlesbrough"
         ]
     },
     "Milton Keynes": {
@@ -1277,8 +1300,7 @@
         ],
         "google": [
             "Northampton",
-            "Northamptonshire",
-            "Moulton Park Industrial Estate, Northampton"
+            "Northamptonshire"
         ]
     },
     "Norwich": {
@@ -1295,7 +1317,8 @@
         "loqate": [
             "Nottingham, Nottinghamshire",
             "Cottingham, North Humberside",
-            "Cottingham, Market Harborough"
+            "Cottingham, Market Harborough",
+            "Mottingham, Bromley, London"
         ],
         "google": [
             "Nottingham",
@@ -1349,11 +1372,11 @@
     },
     "Peckham": {
         "loqate": [
+            "Peckham, Southwark, London",
+            "Peckham Rye, Peckham, London",
             "Deckham, Gateshead",
             "Leckhampstead, Newbury",
-            "Leckhampton, Cheltenham",
-            "Leckhampton Hill, Cheltenham",
-            "Beckhampton, Marlborough"
+            "Leckhampton, Cheltenham"
         ],
         "google": [
             "Peckham, London"
@@ -1362,10 +1385,10 @@
     "Perth": {
         "loqate": [
             "Perth, Perthshire",
+            "Perton, Stoke Edith",
             "Pertenhall, Bedford",
             "Perton, Wolverhampton",
-            "Porthmadog, Gwynedd",
-            "Porth, Mid Glamorgan"
+            "Porthmadog, Gwynedd"
         ],
         "google": [
             "Perth",
@@ -1429,7 +1452,7 @@
             "Prestonpans",
             "Preston Brook",
             "Preston, Hull",
-            "Preston Candover, Basingstoke"
+            "Preston, Hitchin"
         ]
     },
     "Reading": {
@@ -1442,8 +1465,8 @@
         ],
         "google": [
             "Reading",
-            "Reading Street, Tenterden",
             "Reading Street, Broadstairs",
+            "Reading Street, Tenterden",
             "Reading Green, Eye"
         ]
     },
@@ -1458,15 +1481,14 @@
     "Romford": {
         "loqate": [
             "Romford, Essex",
+            "Romford, Havering, London",
             "Comford, Redruth",
             "Rumford, Falkirk",
-            "Cromford, Matlock",
-            "Rumford, Wadebridge"
+            "Cromford, Matlock"
         ],
         "google": [
             "Romford",
-            "Romford, Verwood",
-            "Rumford, Falkirk"
+            "Romford, Verwood"
         ]
     },
     "Rotherham": {
@@ -1481,6 +1503,7 @@
         "loqate": [
             "Rushden, Northamptonshire",
             "Rushden, Buntingford",
+            "Rushen Abbey, Ballasalla",
             "Rushenden, Queenborough"
         ],
         "google": [
@@ -1544,15 +1567,16 @@
         "google": [
             "Slough",
             "Slough Trading Estate, Slough",
-            "Slough Green, Taunton",
             "Slough Green, Haywards Heath",
+            "Slough Green, Taunton",
             "Slough Hill, Bury Saint Edmunds"
         ]
     },
     "Southampton": {
         "loqate": [
             "Southampton, Hampshire",
-            "Southampton International Airport, Southampton"
+            "Southampton International Airport, Southampton",
+            "Southampton Science Park, Chilworth"
         ],
         "google": [
             "Southampton"
@@ -1591,7 +1615,8 @@
             "Stafford",
             "Staffordshire",
             "Staffordstown, Antrim",
-            "Stratford-upon-Avon"
+            "Stratford-upon-Avon",
+            "Stanford in the Vale, Faringdon"
         ]
     },
     "Staines-upon-Thames": {
@@ -1600,7 +1625,7 @@
             "Thames Ditton, Surrey",
             "Staines Green, Hertford",
             "Thames View Industrial Park, Abingdon",
-            "Thame, Oxfordshire"
+            "Thamesmead, Greenwich, London"
         ],
         "google": [
             "Staines-upon-Thames"
@@ -1652,17 +1677,17 @@
     "Stratford": {
         "loqate": [
             "Stratford-Upon-Avon, Warwickshire",
+            "Stratford, Newham, London",
             "Stratford Tony, Salisbury",
             "Stratford Enterprise Park, Stratford-Upon-Avon",
-            "Stratford St. Mary, Colchester",
-            "Stratford Sub Castle, Salisbury"
+            "Stratford St. Mary, Colchester"
         ],
         "google": [
             "Stratford, London",
             "Stratford-upon-Avon",
             "Stratford St Mary, Colchester",
-            "Stratford Tony, Salisbury",
-            "Stratford St Andrew, Saxmundham"
+            "Stratford St Andrew, Saxmundham",
+            "Stratford Tony, Salisbury"
         ]
     },
     "Sunderland": {
@@ -1701,6 +1726,7 @@
         "loqate": [
             "Swansea, West Glamorgan",
             "Swansea Vale, Swansea",
+            "Swansea Airport, Fairwood",
             "Swansea Enterprise Park, Swansea"
         ],
         "google": [
@@ -1783,6 +1809,7 @@
     "Uxbridge": {
         "loqate": [
             "Uxbridge, Middlesex",
+            "Uxbridge, Hillingdon, London",
             "Axbridge, Avon",
             "Axbridge, Somerset",
             "Oxbridge, Bridport"
@@ -1796,7 +1823,8 @@
             "Wakefield, West Yorkshire",
             "Wakefield 41 Business Park, Wakefield",
             "Wakefield 41 Industrial Estate, Wakefield",
-            "Pakefield, Lowestoft"
+            "Pakefield, Lowestoft",
+            "Wokefield Green, Mortimer"
         ],
         "google": [
             "Wakefield"
@@ -1835,7 +1863,6 @@
         "google": [
             "Warrington",
             "Great Sankey",
-            "Wallington, Morpeth",
             "Warringtonas, Peterborough"
         ]
     },
@@ -1856,12 +1883,15 @@
     "Wembley": {
         "loqate": [
             "Wembley, Middlesex",
+            "Wembley, Brent, London",
+            "Wembley Park, Brent, London",
+            "Wembley Central, Brent, London",
             "Weobley, Hereford"
         ],
         "google": [
             "Wembley",
             "Wembley Park, Wembley",
-            "Wembley Thuaidh, Wembley"
+            "North Wembley, Wembley"
         ]
     },
     "West Bromwich": {
@@ -1917,13 +1947,15 @@
             "Wolverhampton, West Midlands"
         ],
         "google": [
-            "Wolverhampton"
+            "Wolverhampton",
+            "Merry Hill, Wolverhampton"
         ]
     },
     "Worcester": {
         "loqate": [
             "Worcester, Worcestershire",
-            "Worcester Park, Surrey"
+            "Worcester Park, Surrey",
+            "Worcester Park, Sutton, London"
         ],
         "google": [
             "Worcester",
@@ -1959,17 +1991,17 @@
     "York": {
         "loqate": [
             "York, North Yorkshire",
+            "York Business Park, Nether Poppleton",
             "York Road Business Park, Malton",
             "Yorkley, Lydney",
-            "Yorkletts, Whitstable",
-            "Orkney"
+            "Yorkley Slade, Yorkley"
         ],
         "google": [
             "York",
             "Yorkley, Lydney",
             "Yorkletts, Whitstable",
             "York Town, Camberley",
-            "Bradford"
+            "Halifax"
         ]
     }
 }
