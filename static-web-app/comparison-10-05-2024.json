@@ -1,0 +1,2007 @@
+{
+    "Aberdeen": {
+        "loqate": [
+            "Aberdeen, Aberdeenshire",
+            "Aberdeen Airport, Dyce"
+        ],
+        "google": [
+            "Aberdeen",
+            "Aberdeenshire",
+            "Aberdeen City",
+            "Westhill"
+        ]
+    },
+    "Ayr": {
+        "loqate": [
+            "Ayr, Ayrshire",
+            "Ayr, St. Ives",
+            "Ayr Central, Ayr",
+            "Aylesford, Kent",
+            "Aylesbury, Buckinghamshire"
+        ],
+        "google": [
+            "Ayr",
+            "Ayr, Saint Ives",
+            "Irvine",
+            "Saltcoats",
+            "Troon"
+        ]
+    },
+    "Ballymena": {
+        "loqate": [
+            "Ballymena, County Antrim"
+        ],
+        "google": [
+            "Ballymena"
+        ]
+    },
+    "Banbury": {
+        "loqate": [
+            "Banbury, Oxfordshire",
+            "Badbury, Swindon",
+            "Hanbury, Redditch",
+            "Hanbury, Droitwich",
+            "Bunbury, Tarporley"
+        ],
+        "google": [
+            "Banbury",
+            "Bunbury, Tarporley",
+            "Bamber Bridge, Preston"
+        ]
+    },
+    "Barnsley": {
+        "loqate": [
+            "Barnsley, South Yorkshire",
+            "Barnsley, Wimborne",
+            "Barnsley, Bridgnorth",
+            "Barnsley, Cirencester",
+            "Bardsley, Oldham"
+        ],
+        "google": [
+            "Barnsley",
+            "Barnsley, Cirencester",
+            "Barnsley, Bridgnorth"
+        ]
+    },
+    "Barnstaple": {
+        "loqate": [
+            "Barnstaple, Devon",
+            "Barnstaple Cross, Crediton"
+        ],
+        "google": [
+            "Barnstaple"
+        ]
+    },
+    "Basildon": {
+        "loqate": [
+            "Basildon, Essex",
+            "Baildon, Shipley"
+        ],
+        "google": [
+            "Basildon",
+            "Basildon, Reading"
+        ]
+    },
+    "Basingstoke": {
+        "loqate": [
+            "Basingstoke, Hampshire"
+        ],
+        "google": [
+            "Basingstoke"
+        ]
+    },
+    "Bath": {
+        "loqate": [
+            "Bath, Avon",
+            "Bath Business Park, Peasedown St. John",
+            "Bathgate, West Lothian",
+            "Bathford, Bath",
+            "Bathwick, Bath"
+        ],
+        "google": [
+            "Bath",
+            "Bathgate",
+            "Bathampton, Bath",
+            "Batheaston",
+            "Bathford"
+        ]
+    },
+    "Bedford": {
+        "loqate": [
+            "Bedford, Bedfordshire",
+            "Belford, Northumberland",
+            "Redford, Arbroath",
+            "Redford, Midhurst",
+            "Edford, Holcombe"
+        ],
+        "google": [
+            "Bedford",
+            "Sandy",
+            "Ireland, Shefford",
+            "Bidford-on-Avon, Alcester",
+            "Clifton"
+        ]
+    },
+    "Belfast": {
+        "loqate": [
+            "Belfast, County Antrim"
+        ],
+        "google": [
+            "Belfast"
+        ]
+    },
+    "Bexleyheath": {
+        "loqate": [
+            "Bexleyheath, Kent",
+            "Bexleyheath, Bexley, London"
+        ],
+        "google": [
+            "Bexleyheath"
+        ]
+    },
+    "Birkenhead": {
+        "loqate": [
+            "Birkenhead, Merseyside"
+        ],
+        "google": [
+            "Birkenhead"
+        ]
+    },
+    "Birmingham": {
+        "loqate": [
+            "Birmingham, West Midlands",
+            "Birmingham Airport, Birmingham",
+            "Birmingham Business Park, Birmingham",
+            "Birlingham, Pershore"
+        ],
+        "google": [
+            "Birmingham",
+            "Barningham, Norwich",
+            "Hollywood"
+        ]
+    },
+    "Blackburn": {
+        "loqate": [
+            "Blackburn, Lancashire",
+            "Blackburn, Aberdeen",
+            "Blackburn, Bathgate",
+            "Blackburn Road Industrial Estate, Coventry"
+        ],
+        "google": [
+            "Blackburn",
+            "Blackburn, Bathgate",
+            "Blackburn, Aberdeen",
+            "Blackburn with Darwen"
+        ]
+    },
+    "Blackpool": {
+        "loqate": [
+            "Blackpool, Lancashire",
+            "Blackpool, Yealmpton",
+            "Blackpool, Dartmouth",
+            "Blackpool Bridge, Narberth",
+            "Blackpool Airport, Blackpool"
+        ],
+        "google": [
+            "Blackpool",
+            "Blackpool, Dartmouth",
+            "Blackpool Gate, Carlisle",
+            "Blackpool Corner, Axminster",
+            "Blackpool, Narberth"
+        ]
+    },
+    "Bolton": {
+        "loqate": [
+            "Bolton, York",
+            "Bolton, Alnwick",
+            "Bolton, Greater Manchester",
+            "Bolton Percy, York",
+            "Bolton, Appleby-In-Westmorland"
+        ],
+        "google": [
+            "Bolton",
+            "Bolton Abbey, Skipton",
+            "Bolton-le-Sands",
+            "Bolton upon Dearne",
+            "Bolton by Bowland, Clitheroe"
+        ]
+    },
+    "Bournemouth": {
+        "loqate": [
+            "Bournemouth, Dorset",
+            "Bournemouth International Airport, Hurn"
+        ],
+        "google": [
+            "Bournemouth"
+        ]
+    },
+    "Bracknell": {
+        "loqate": [
+            "Bracknell, Berkshire"
+        ],
+        "google": [
+            "Bracknell"
+        ]
+    },
+    "Bradford": {
+        "loqate": [
+            "Bradford, West Yorkshire",
+            "Bradford, Holsworthy",
+            "Bradford-On-Avon, Wiltshire",
+            "Bradford Leigh, Bradford-On-Avon",
+            "Bradford Abbas, Sherborne"
+        ],
+        "google": [
+            "Bradford",
+            "Bradford-on-Avon",
+            "Bradford, Manchester",
+            "Bradford Abbas, Sherborne",
+            "Bradford-on-Tone, Taunton"
+        ]
+    },
+    "Brighton": {
+        "loqate": [
+            "Brighton, East Sussex",
+            "Brighton-Le-Sands, Liverpool",
+            "Brighton Marina Village, Brighton",
+            "Brighton Street Industrial Estate, Hull",
+            "Brightons, Falkirk"
+        ],
+        "google": [
+            "Brighton Marina, Brighton and Hove",
+            "Brighton and Hove",
+            "Brightons, Falkirk",
+            "Brighton, Truro",
+            "Brighton le Sands, Liverpool"
+        ]
+    },
+    "Bristol": {
+        "loqate": [
+            "Bristol, Avon",
+            "Bristol International Airport, Bristol",
+            "Briston, Melton Constable"
+        ],
+        "google": [
+            "Bristol",
+            "Bristol City",
+            "Lawrence Weston, Bristol"
+        ]
+    },
+    "Bromley": {
+        "loqate": [
+            "Bromley, Kent",
+            "Bromley, London",
+            "Bromley, Wortley",
+            "Bromley, Bridgnorth",
+            "Bromley Cross, Bolton"
+        ],
+        "google": [
+            "Bromley",
+            "Bromley By Bow, London",
+            "Bromley Cross, Bolton",
+            "Bromley Common, Bromley",
+            "Bromley Green, Ashford"
+        ]
+    },
+    "Burnley": {
+        "loqate": [
+            "Burnley, Lancashire",
+            "Burley, Leeds",
+            "Burley, Oakham",
+            "Burley, Ringwood",
+            "Burley, Craven Arms"
+        ],
+        "google": [
+            "Burnley",
+            "Burnley Lane, Burnley"
+        ]
+    },
+    "Burton-on-Trent": {
+        "loqate": [
+            "Burton-On-Trent, Staffordshire",
+            "Trent, Sherborne",
+            "Burton, Neston",
+            "Burton, Rossett",
+            "Burton, Lincoln"
+        ],
+        "google": [
+            "Burton-on-Trent"
+        ]
+    },
+    "Bury": {
+        "loqate": [
+            "Bury, Ramsey",
+            "Bury, Greater Manchester",
+            "Bury, Dulverton",
+            "Bury, Pulborough",
+            "Bury St. Edmunds, Suffolk"
+        ],
+        "google": [
+            "Bury St Edmunds, Bury Saint Edmunds",
+            "Bury",
+            "Bury, Pulborough",
+            "Bury, Huntingdon",
+            "Burythorpe, Malton"
+        ]
+    },
+    "Bury St Edmunds": {
+        "loqate": [
+            "Bury St. Edmunds, Suffolk"
+        ],
+        "google": [
+            "Bury St Edmunds, Bury Saint Edmunds"
+        ]
+    },
+    "Camberley": {
+        "loqate": [
+            "Camberley, Surrey",
+            "Amberley, Stroud",
+            "Amberley, Arundel"
+        ],
+        "google": [
+            "Camberley"
+        ]
+    },
+    "Cambridge": {
+        "loqate": [
+            "Cambridge, Cambridgeshire",
+            "Cambridge, Gloucester",
+            "Cambridge Heath, Tower Hamlets, London",
+            "Cambridge Biomedical Campus, Cambridge",
+            "Hambridge, Langport"
+        ],
+        "google": [
+            "Cambridge",
+            "Cambridgeshire",
+            "Cambridge, Gloucester",
+            "Royal Tunbridge Wells, Tunbridge Wells"
+        ]
+    },
+    "Canterbury": {
+        "loqate": [
+            "Canterbury, Kent"
+        ],
+        "google": [
+            "Canterbury",
+            "Canterbury, Banff"
+        ]
+    },
+    "Cardiff": {
+        "loqate": [
+            "Cardiff, South Glamorgan",
+            "Cardiff International Airport, Rhoose",
+            "Cardiff Gate Business Park, Pontprennau"
+        ],
+        "google": [
+            "Cardiff"
+        ]
+    },
+    "Carlisle": {
+        "loqate": [
+            "Carlisle, Cumbria",
+            "Carlisle Airport, Carlisle",
+            "Carlisle Lake District Airport, Carlisle"
+        ],
+        "google": [
+            "Carlisle",
+            "Port Carlisle, Wigton"
+        ]
+    },
+    "Chatham": {
+        "loqate": [
+            "Chatham, Kent",
+            "Chartham, Canterbury",
+            "Coatham Mundeville, Darlington",
+            "Chartham Hatch, Canterbury"
+        ],
+        "google": [
+            "Chatham"
+        ]
+    },
+    "Chelmsford": {
+        "loqate": [
+            "Chelmsford, Essex"
+        ],
+        "google": [
+            "Chelmsford"
+        ]
+    },
+    "Cheltenham": {
+        "loqate": [
+            "Cheltenham, Gloucestershire",
+            "Cheltenham Trade Park, Cheltenham"
+        ],
+        "google": [
+            "Cheltenham"
+        ]
+    },
+    "Chester": {
+        "loqate": [
+            "Chester, Cheshire",
+            "Chester Le Street, County Durham",
+            "Chester Moor, Chester Le Street",
+            "Chester Business Park, Chester",
+            "Chester West Employment Park, Chester"
+        ],
+        "google": [
+            "Chester",
+            "Chesterfield",
+            "Chester-le-Street",
+            "Chesterton, Newcastle",
+            "Chesterton, Bicester"
+        ]
+    },
+    "Chesterfield": {
+        "loqate": [
+            "Chesterfield, Derbyshire"
+        ],
+        "google": [
+            "Chesterfield",
+            "Chesterfield, Lichfield"
+        ]
+    },
+    "Clydebank": {
+        "loqate": [
+            "Clydebank, Dunbartonshire",
+            "Clydebank Business Park, Clydebank"
+        ],
+        "google": [
+            "Clydebank"
+        ]
+    },
+    "Colchester": {
+        "loqate": [
+            "Colchester, Essex",
+            "Colchester Business Park, Colchester"
+        ],
+        "google": [
+            "Colchester",
+            "Colchester Green, Bury Saint Edmunds"
+        ]
+    },
+    "Corby": {
+        "loqate": [
+            "Corby, Northamptonshire",
+            "Corby Hill, Carlisle",
+            "Corby Glen, Grantham",
+            "Corbridge, Northumberland",
+            "Corbane, Rosslea"
+        ],
+        "google": [
+            "Corby",
+            "Corby Glen, Grantham",
+            "Corby Hill, Carlisle",
+            "Colby, Isle of Man"
+        ]
+    },
+    "Coventry": {
+        "loqate": [
+            "Coventry, West Midlands",
+            "Coventry Walsgrave Triangle, Coventry"
+        ],
+        "google": [
+            "Coventry",
+            "Covent Garden, London"
+        ]
+    },
+    "Craigavon": {
+        "loqate": [
+            "Craigavon, County Armagh"
+        ],
+        "google": [
+            "Craigavon"
+        ]
+    },
+    "Crawley": {
+        "loqate": [
+            "Crawley, West Sussex",
+            "Crawley, Witney",
+            "Crawley, Winchester",
+            "Crawley Down, Crawley",
+            "Cradley Heath, West Midlands"
+        ],
+        "google": [
+            "Crawley",
+            "Crawley Down",
+            "Crawley, Winchester",
+            "Crawley, Witney",
+            "Crawleyside, Bishop Auckland"
+        ]
+    },
+    "Croydon": {
+        "loqate": [
+            "Croydon, Surrey",
+            "Croydon, London",
+            "Croydon, Royston",
+            "Croydon Airport, Croydon, London",
+            "Roydon, Diss"
+        ],
+        "google": [
+            "Croydon",
+            "Croydon, Royston",
+            "Croydon Theas"
+        ]
+    },
+    "Cwmbran": {
+        "loqate": [
+            "Cwmbran, Gwent"
+        ],
+        "google": [
+            "Cwmbran",
+            "Cwmbrân Uchaf, Cwmbran"
+        ]
+    },
+    "Darlington": {
+        "loqate": [
+            "Darlington, County Durham",
+            "Farlington, York",
+            "Harlington, Hayes",
+            "Arlington, Bibury",
+            "Dartington, Totnes"
+        ],
+        "google": [
+            "Darlington",
+            "Dartington Hall, Totnes",
+            "Darrington, Pontefract"
+        ]
+    },
+    "Dartford": {
+        "loqate": [
+            "Dartford, Kent",
+            "Hartford, Northwich",
+            "Hartford, Huntingdon",
+            "Hartford Bridge, Hook",
+            "Hartford, Cramlington"
+        ],
+        "google": [
+            "Dartford"
+        ]
+    },
+    "Derby": {
+        "loqate": [
+            "Derby, Derbyshire",
+            "Denby, Ripley",
+            "Derry, Mackan",
+            "Derry More, Kesh",
+            "Derryneeve, Kesh"
+        ],
+        "google": [
+            "Derby",
+            "Derbyshire",
+            "Derbyhaven, Isle of Man",
+            "Matlock",
+            "Darby End, Dudley"
+        ]
+    },
+    "Doncaster": {
+        "loqate": [
+            "Doncaster, South Yorkshire",
+            "Doncaster Finningley Airport, Doncaster"
+        ],
+        "google": [
+            "Doncaster",
+            "Little Canada, Doncaster"
+        ]
+    },
+    "Dudley": {
+        "loqate": [
+            "Dudley, West Midlands",
+            "Dudley, Cramlington",
+            "Dudley Port, Tipton",
+            "Dudleston, Ellesmere",
+            "Dudleston Heath, Ellesmere"
+        ],
+        "google": [
+            "Dudley",
+            "Dudley, Cramlington",
+            "Dudley Hill, Bradford",
+            "Dudley Port, Tipton",
+            "Dudley Wood, Dudley"
+        ]
+    },
+    "Dundee": {
+        "loqate": [
+            "Dundee, Angus",
+            "Dundee Technology Park, Dundee",
+            "Dundrennan, Kirkcudbright"
+        ],
+        "google": [
+            "Dundee",
+            "Dundee City"
+        ]
+    },
+    "Dunfermline": {
+        "loqate": [
+            "Dunfermline, Fife",
+            "Dunfermline East Business Parks, Dunfermline"
+        ],
+        "google": [
+            "Dunfermline"
+        ]
+    },
+    "Ealing": {
+        "loqate": [
+            "Ealing, London",
+            "Ealing Common, Ealing, London",
+            "Ealing Broadway, Ealing, London",
+            "Tealing, Dundee",
+            "Easington, Hull"
+        ],
+        "google": [
+            "Ealing, London",
+            "West Ealing, London",
+            "Ellington, Huntingdon"
+        ]
+    },
+    "East Ham": {
+        "loqate": [
+            "Eastham, Wirral",
+            "Eastham, Tenbury Wells",
+            "Easthampton, Shobdon",
+            "East Ham, Newham, London",
+            "Easthampnett, Chichester"
+        ],
+        "google": [
+            "East Ham, London",
+            "Easthampton, Leominster",
+            "Easthampstead, Bracknell",
+            "East Hampnett, Tangmere, Chichester",
+            "Eastham, Birkenhead, Wirral"
+        ]
+    },
+    "East Kilbride": {
+        "loqate": [
+            "East Kilbride, Glasgow",
+            "East Kilbride, Isle of South Uist"
+        ],
+        "google": [
+            "East Kilbride, Glasgow"
+        ]
+    },
+    "Eastbourne": {
+        "loqate": [
+            "Eastbourne, East Sussex",
+            "Easebourne, Midhurst"
+        ],
+        "google": [
+            "Eastbourne",
+            "Eastbourne, Darlington"
+        ]
+    },
+    "Edinburgh": {
+        "loqate": [
+            "Edinburgh, Midlothian",
+            "Edinburgh Technopole, Milton Bridge",
+            "Edinburgh Bioquarter, Edinburgh",
+            "Edinburgh Airport, Edinburgh"
+        ],
+        "google": [
+            "Edinburgh"
+        ]
+    },
+    "Exeter": {
+        "loqate": [
+            "Exeter, Devon",
+            "Exeter Airport, Clyst Honiton",
+            "Exeter Business Park, Exeter",
+            "Exeter Road Industrial Estate, Okehampton"
+        ],
+        "google": [
+            "Exeter",
+            "Exeter Quay, Exeter",
+            "Exeter Road Industrial Estate, Okehampton"
+        ]
+    },
+    "Folkestone": {
+        "loqate": [
+            "Folkestone, Kent"
+        ],
+        "google": [
+            "Folkestone"
+        ]
+    },
+    "Gateshead": {
+        "loqate": [
+            "Gateshead, Tyne and Wear",
+            "Gatesheath, Tattenhall",
+            "Gatehead, Kilmarnock"
+        ],
+        "google": [
+            "Gateshead"
+        ]
+    },
+    "Glasgow": {
+        "loqate": [
+            "Glasgow, Lanarkshire",
+            "Glasgow, Dunbartonshire",
+            "Glasgow Airport, Abbotsinch",
+            "Glasgow Business Park, Baillieston",
+            "Glasgow Prestwick Intnl Airport, Prestwick"
+        ],
+        "google": [
+            "Glasgow",
+            "Glasgow City, Glasgow",
+            "Port Glasgow"
+        ]
+    },
+    "Gloucester": {
+        "loqate": [
+            "Gloucester, Gloucestershire",
+            "Gloucester Business Park, Brockworth",
+            "Gloucestershire Airport, Staverton"
+        ],
+        "google": [
+            "Gloucester",
+            "Gloucestershire",
+            "Cheltenham",
+            "Stroud",
+            "Stonehouse"
+        ]
+    },
+    "Gravesend": {
+        "loqate": [
+            "Gravesend, Kent",
+            "Grovesend, Swansea",
+            "Grovesend, Thornbury"
+        ],
+        "google": [
+            "Gravesend"
+        ]
+    },
+    "Greenhithe": {
+        "loqate": [
+            "Greenhithe, Kent"
+        ],
+        "google": [
+            "Greenhithe"
+        ]
+    },
+    "Greenock": {
+        "loqate": [
+            "Greenock, Renfrewshire",
+            "Greenoak, Goole",
+            "Green Rocks, Newlyn"
+        ],
+        "google": [
+            "Greenock",
+            "Greenock West, Greenock"
+        ]
+    },
+    "Grimsby": {
+        "loqate": [
+            "Grimsby, South Humberside",
+            "Grimsay, Isle of North Uist",
+            "Grimsay Island, Isle of Benbecula"
+        ],
+        "google": [
+            "Grimsby"
+        ]
+    },
+    "Guildford": {
+        "loqate": [
+            "Guildford, Surrey"
+        ],
+        "google": [
+            "Guildford",
+            "Gilford, Craigavon"
+        ]
+    },
+    "Hamilton": {
+        "loqate": [
+            "Hamilton, Lanarkshire",
+            "Hamilton, Leicester",
+            "Hamilton Intnl Technology Park, Blantyre",
+            "Hamiltonsbawn, Armagh"
+        ],
+        "google": [
+            "Hamilton",
+            "Hamilton, Leicester",
+            "Hamiltonsbawn, Armagh"
+        ]
+    },
+    "Hammersmith": {
+        "loqate": [
+            "Hammersmith, Ripley",
+            "Hammersmith, Hammersmith and Fulham, London",
+            "Hammersmith Broadway, Hammersmith, London",
+            "Hammersmith and Fulham, London"
+        ],
+        "google": [
+            "Hammersmith, London"
+        ]
+    },
+    "Harlow": {
+        "loqate": [
+            "Harlow, Essex",
+            "Harlow Wood, Mansfield",
+            "Harlow Green, Gateshead",
+            "Harlow Hill, Newcastle Upon Tyne",
+            "Harlow Innovation Park, Harlow"
+        ],
+        "google": [
+            "Harlow",
+            "Harlow Hill, Newcastle upon Tyne",
+            "Harlow Wood, Mansfield",
+            "Harlow Green, Gateshead"
+        ]
+    },
+    "Harrogate": {
+        "loqate": [
+            "Harrogate, North Yorkshire"
+        ],
+        "google": [
+            "Harrogate",
+            "Harrowgate Hill, Darlington"
+        ]
+    },
+    "Harrow": {
+        "loqate": [
+            "Harrow, Middlesex",
+            "Harrow, London",
+            "Harrow Weald, Harrow",
+            "Harrow Hill, Drybrook",
+            "Harrow Weald, Harrow, London"
+        ],
+        "google": [
+            "Harrow",
+            "Harrogate",
+            "Harrowbarrow, Callington",
+            "Harrowden, Bedford",
+            "Harrowgate Hill, Darlington"
+        ]
+    },
+    "Hartlepool": {
+        "loqate": [
+            "Hartlepool, Cleveland"
+        ],
+        "google": [
+            "Hartlepool"
+        ]
+    },
+    "Hastings": {
+        "loqate": [
+            "Hastings, East Sussex",
+            "Hastings, Ilminster",
+            "Hastingwood, Harlow",
+            "Hastingleigh, Ashford"
+        ],
+        "google": [
+            "Hastings",
+            "Hastings Hill, Sunderland",
+            "Hastings, Ilminster"
+        ]
+    },
+    "Hemel Hempstead": {
+        "loqate": [
+            "Hemel Hempstead, Hertfordshire",
+            "Hemel Hempstead Industrial Estate, Hemel Hempstead"
+        ],
+        "google": [
+            "Hemel Hempstead",
+            "Hemel Hempstead Industrial Estate, London, Hemel Hempstead"
+        ]
+    },
+    "Hereford": {
+        "loqate": [
+            "Hereford, Herefordshire",
+            "Hertford, Hertfordshire",
+            "Shereford, Fakenham",
+            "Hertford Heath, Hertford"
+        ],
+        "google": [
+            "Hereford",
+            "Herefordshire"
+        ]
+    },
+    "High Wycombe": {
+        "loqate": [
+            "High Wycombe, Buckinghamshire"
+        ],
+        "google": [
+            "High Wycombe",
+            "Wycombe Marsh, High Wycombe"
+        ]
+    },
+    "Hounslow": {
+        "loqate": [
+            "Hounslow, Middlesex",
+            "Hounslow, London",
+            "Hounslow, Hounslow, London",
+            "Hounslow Central, Hounslow, London",
+            "Hounslow East, Hounslow, London"
+        ],
+        "google": [
+            "Hounslow",
+            "Hounslow Green, Dunmow"
+        ]
+    },
+    "Huddersfield": {
+        "loqate": [
+            "Huddersfield, West Yorkshire"
+        ],
+        "google": [
+            "Huddersfield"
+        ]
+    },
+    "Hull": {
+        "loqate": [
+            "Hull, North Humberside",
+            "Hullbridge, Hockley",
+            "Hulland Ward, Ashbourne",
+            "Hulland Village, Ashbourne",
+            "Hullavington, Chippenham"
+        ],
+        "google": [
+            "Hull",
+            "Hullbridge",
+            "Hullavington, Chippenham",
+            "Hulland Ward, Ashbourne",
+            "Hull Bridge, Beverley"
+        ]
+    },
+    "Ilford": {
+        "loqate": [
+            "Ilford, Essex",
+            "Ilford, Ilminster",
+            "Ilford, Redbridge, London",
+            "Milford Haven, Dyfed",
+            "Alford, Lincolnshire"
+        ],
+        "google": [
+            "Ilford",
+            "Ilford, Ilminster",
+            "Milford Haven",
+            "Ilfordas",
+            "Iford, Bournemouth"
+        ]
+    },
+    "Inverness": {
+        "loqate": [
+            "Inverness, Inverness-Shire",
+            "Inverness Airport, Dalcross",
+            "Inverness Business & Retail Park, Inverness"
+        ],
+        "google": [
+            "Inverness"
+        ]
+    },
+    "Ipswich": {
+        "loqate": [
+            "Ipswich, Suffolk"
+        ],
+        "google": [
+            "Ipswich",
+            "Ipswich Village Development, Ipswich"
+        ]
+    },
+    "Irvine": {
+        "loqate": [
+            "Irvine, Ayrshire",
+            "Irvine Industrial Estate, Irvine",
+            "Irvinestown, Enniskillen"
+        ],
+        "google": [
+            "Irvine",
+            "Irvinestown, Enniskillen",
+            "Irvine Industrial Estate, Irvine"
+        ]
+    },
+    "Kent": {
+        "loqate": [
+            "Kent International Airport, Manston",
+            "Kenton, Harrow",
+            "Kenton, Exeter",
+            "Kentallen, Appin",
+            "Kentmere, Kendal"
+        ],
+        "google": [
+            "Kent",
+            "Kentmere, Kendal",
+            "Kents Hill, Milton Keynes",
+            "Kentford, Newmarket",
+            "Kentisbeare, Cullompton"
+        ]
+    },
+    "Kings Lynn": {
+        "loqate": [
+            "King'S Lynn, Norfolk"
+        ],
+        "google": [
+            "King's Lynn"
+        ]
+    },
+    "Kingston Upon Thames": {
+        "loqate": [
+            "Kingston Upon Thames, Surrey",
+            "Kingston upon Thames, London"
+        ],
+        "google": [
+            "Kingston upon Thames"
+        ]
+    },
+    "Lancaster": {
+        "loqate": [
+            "Lancaster, Lancashire",
+            "Ancaster, Grantham"
+        ],
+        "google": [
+            "Lancaster",
+            "Lancaster West Estate, London",
+            "Lanchester"
+        ]
+    },
+    "Leeds": {
+        "loqate": [
+            "Leeds, West Yorkshire",
+            "Leeds, Maidstone",
+            "Leeds Bradford Airport, Yeadon",
+            "Leedstown, Hayle",
+            "Leedon, Leighton Buzzard"
+        ],
+        "google": [
+            "Leeds",
+            "Leedstown, Hayle",
+            "Leeds, Maidstone"
+        ]
+    },
+    "Leicester": {
+        "loqate": [
+            "Leicester, Leicestershire",
+            "Leicester Square, The West End, London",
+            "Leicester Forest West, Leicester",
+            "Leicester Forest East, Leicester"
+        ],
+        "google": [
+            "Leicester",
+            "Leicestershire",
+            "Leicester Forest East, Leicester",
+            "Waltham on the Wolds, Melton Mowbray"
+        ]
+    },
+    "Lincoln": {
+        "loqate": [
+            "Lincoln, Lincolnshire",
+            "Lincoln Hill, Ross-On-Wye",
+            "Lincoln's Inn, Holborn, London"
+        ],
+        "google": [
+            "Lincoln",
+            "Lincolnshire",
+            "Lincolnshire Norte",
+            "Lincolnshire Noreste"
+        ]
+    },
+    "Lisburn": {
+        "loqate": [
+            "Lisburn, County Antrim",
+            "Gisburn, Clitheroe"
+        ],
+        "google": [
+            "Lisburn",
+            "Lisburn and Castlereagh"
+        ]
+    },
+    "Liverpool": {
+        "loqate": [
+            "Liverpool, Merseyside",
+            "Liverpool Airport, Liverpool",
+            "Liverpool Shopping Park, Liverpool",
+            "Liverpool Shopping Park, Old Swan"
+        ],
+        "google": [
+            "Liverpool"
+        ]
+    },
+    "Livingston": {
+        "loqate": [
+            "Livingston, West Lothian",
+            "Livingston Village, Livingston"
+        ],
+        "google": [
+            "Livingston",
+            "Livingston Village, Livingston"
+        ]
+    },
+    "Llandudno": {
+        "loqate": [
+            "Llandudno, Gwynedd",
+            "Llandudno Junction, Gwynedd"
+        ],
+        "google": [
+            "Llandudno",
+            "Llandudno Junction"
+        ]
+    },
+    "Llanelli": {
+        "loqate": [
+            "Llanelli, Dyfed",
+            "Llanelltyd, Dolgellau",
+            "Llanellen, Abergavenny",
+            "Llanelly Hill, Abergavenny",
+            "Llaneilian, Amlwch"
+        ],
+        "google": [
+            "Llanelli",
+            "Llanelli, Abergavenny",
+            "Llanelly Hill, Abergavenny",
+            "Llaneilian, Amlwch"
+        ]
+    },
+    "London": {
+        "loqate": [
+            "London",
+            "London Colney, St. Albans",
+            "London Apprentice, St. Austell",
+            "London Wall, City of London, London",
+            "London Heathrow Airport, Hounslow"
+        ],
+        "google": [
+            "London",
+            "Londonderry",
+            "London Colney, St Albans",
+            "Londonderry, Northallerton",
+            "London Apprentice, Saint Austell"
+        ]
+    },
+    "Londonderry": {
+        "loqate": [
+            "Londonderry, County Londonderry",
+            "Londonderry, Northallerton"
+        ],
+        "google": [
+            "Londonderry",
+            "Londonderry, Northallerton",
+            "Londonderry, Oldbury"
+        ]
+    },
+    "Loughborough": {
+        "loqate": [
+            "Loughborough, Leicestershire"
+        ],
+        "google": [
+            "Loughborough"
+        ]
+    },
+    "Luton": {
+        "loqate": [
+            "Luton, Bedfordshire",
+            "Luton, Chudleigh",
+            "Lufton, Yeovil",
+            "Lupton, Brixham",
+            "Suton, Wymondham"
+        ],
+        "google": [
+            "Luton",
+            "Luton, Newton Abbot",
+            "Luton, Honiton",
+            "Luton, Chatham",
+            "Warden Hills, Luton"
+        ]
+    },
+    "Maidstone": {
+        "loqate": [
+            "Maidstone, Kent",
+            "Mainstone, Bishops Castle"
+        ],
+        "google": [
+            "Maidstone"
+        ]
+    },
+    "Manchester": {
+        "loqate": [
+            "Manchester, Greater Manchester",
+            "Manchester Airport, Manchester",
+            "Manchester Science Park, Manchester",
+            "Lanchester, Durham"
+        ],
+        "google": [
+            "Manchester",
+            "Sale"
+        ]
+    },
+    "Mansfield": {
+        "loqate": [
+            "Mansfield, Nottinghamshire",
+            "Mansfield Woodhouse, Mansfield",
+            "Manfield, Darlington"
+        ],
+        "google": [
+            "Mansfield",
+            "Mansfield Woodhouse, Mansfield",
+            "Mansfield, Cumnock",
+            "Mansfield Urban Area, Mansfield"
+        ]
+    },
+    "Middlesbrough": {
+        "loqate": [
+            "Middlesbrough, Cleveland"
+        ],
+        "google": [
+            "Middlesbrough"
+        ]
+    },
+    "Milton Keynes": {
+        "loqate": [
+            "Milton Keynes, Buckinghamshire",
+            "Milton Keynes Village, Milton Keynes"
+        ],
+        "google": [
+            "Milton Keynes",
+            "Milton Keynes Village, Milton Keynes"
+        ]
+    },
+    "Motherwell": {
+        "loqate": [
+            "Motherwell, Lanarkshire"
+        ],
+        "google": [
+            "Motherwell"
+        ]
+    },
+    "Newcastle-Upon-Tyne": {
+        "loqate": [
+            "Newcastle Upon Tyne, Tyne and Wear",
+            "Newcastle, County Down",
+            "Newcastle, Staffordshire",
+            "Newcastle Emlyn, Dyfed",
+            "Newcastle, Monmouth"
+        ],
+        "google": [
+            "Newcastle upon Tyne"
+        ]
+    },
+    "Newport": {
+        "loqate": [
+            "Newport, Gwent",
+            "Newport, Dyfed",
+            "Newport, Shropshire",
+            "Newport, Isle of Wight",
+            "Newport, Brough"
+        ],
+        "google": [
+            "Newport",
+            "Newport Pagnell",
+            "Newport, Pembrokeshire, Newport",
+            "Newport, Saffron Walden",
+            "Newport-on-Tay"
+        ]
+    },
+    "Newry": {
+        "loqate": [
+            "Newry, County Down",
+            "New Romney, Kent",
+            "New Radnor, Presteigne",
+            "New Rossington, Doncaster",
+            "New Ridley, Stocksfield"
+        ],
+        "google": [
+            "Newry",
+            "Newry, Mourne and Down"
+        ]
+    },
+    "Newtownabbey": {
+        "loqate": [
+            "Newtownabbey, County Antrim"
+        ],
+        "google": []
+    },
+    "Newtownards": {
+        "loqate": [
+            "Newtownards, County Down"
+        ],
+        "google": [
+            "Newtownards"
+        ]
+    },
+    "Northampton": {
+        "loqate": [
+            "Northampton, Northamptonshire",
+            "Forthampton, Gloucester"
+        ],
+        "google": [
+            "Northampton",
+            "Northamptonshire"
+        ]
+    },
+    "Norwich": {
+        "loqate": [
+            "Norwich, Norfolk",
+            "Horwich, Bolton"
+        ],
+        "google": [
+            "Norwich",
+            "Norwich Over the Water, Norwich"
+        ]
+    },
+    "Nottingham": {
+        "loqate": [
+            "Nottingham, Nottinghamshire",
+            "Cottingham, North Humberside",
+            "Cottingham, Market Harborough",
+            "Mottingham, Bromley, London"
+        ],
+        "google": [
+            "Nottingham",
+            "Nottinghamshire",
+            "Nottinghamshire, Nottingham",
+            "Nottingham, Lybster",
+            "Notting Hill, London"
+        ]
+    },
+    "Oldham": {
+        "loqate": [
+            "Oldham, Greater Manchester",
+            "Oldhamstocks, Cockburnspath",
+            "Old Hall Green, Ware",
+            "Old Hall, Llanidloes",
+            "Old Hall, Warrington"
+        ],
+        "google": [
+            "Oldham",
+            "Oldhamstocks, Cockburnspath",
+            "Oldham Edge, Oldham"
+        ]
+    },
+    "Omagh": {
+        "loqate": [
+            "Omagh, County Tyrone",
+            "Magherafelt, County Londonderry",
+            "Maghera, County Londonderry",
+            "Maghull, Liverpool",
+            "Magheramorne, Larne"
+        ],
+        "google": [
+            "Omagh"
+        ]
+    },
+    "Oxford": {
+        "loqate": [
+            "Oxford, Oxfordshire",
+            "Oxford Airport, Kidlington",
+            "Oxford Business Park North, Oxford",
+            "Oxford Business Park South, Oxford",
+            "Boxford, Newbury"
+        ],
+        "google": [
+            "Oxford",
+            "Oxfordshire",
+            "Didcot",
+            "Thame",
+            "North Oxford, Oxford"
+        ]
+    },
+    "Peckham": {
+        "loqate": [
+            "Peckham, Southwark, London",
+            "Peckham Rye, Peckham, London",
+            "Deckham, Gateshead",
+            "Leckhampstead, Newbury",
+            "Leckhampton, Cheltenham"
+        ],
+        "google": [
+            "Peckham, London"
+        ]
+    },
+    "Perth": {
+        "loqate": [
+            "Perth, Perthshire",
+            "Perton, Stoke Edith",
+            "Pertenhall, Bedford",
+            "Perton, Wolverhampton",
+            "Porthmadog, Gwynedd"
+        ],
+        "google": [
+            "Perth",
+            "Perth and Kinross",
+            "Perthcelyn, Mountain Ash",
+            "Perthy, Ellesmere"
+        ]
+    },
+    "Peterborough": {
+        "loqate": [
+            "Peterborough, Cambridgeshire"
+        ],
+        "google": [
+            "Peterborough"
+        ]
+    },
+    "Plymouth": {
+        "loqate": [
+            "Plymouth, Devon"
+        ],
+        "google": [
+            "Plymouth",
+            "Devonport, Plymouth"
+        ]
+    },
+    "Poole": {
+        "loqate": [
+            "Poole, Dorset",
+            "Poole, Nantwich",
+            "Poole, Wellington",
+            "Poole Keynes, Cirencester",
+            "Poolewe, Achnasheen"
+        ],
+        "google": [
+            "Poole",
+            "Pooley Bridge, Penrith",
+            "Poolewe, Achnasheen",
+            "Poole Keynes, Cirencester",
+            "Poole, Nantwich"
+        ]
+    },
+    "Portsmouth": {
+        "loqate": [
+            "Portsmouth, Hampshire"
+        ],
+        "google": [
+            "Portsmouth",
+            "HM Naval Base, Portsmouth"
+        ]
+    },
+    "Preston": {
+        "loqate": [
+            "Preston, Lancashire",
+            "Preston, Duns",
+            "Preston, Hull",
+            "Preston, Oakham",
+            "Preston, Hitchin"
+        ],
+        "google": [
+            "Preston",
+            "Prestonpans",
+            "Preston Brook",
+            "Preston, Hull",
+            "Preston, Hitchin"
+        ]
+    },
+    "Reading": {
+        "loqate": [
+            "Reading, Berkshire",
+            "Redding, Falkirk",
+            "Headingley, Leeds",
+            "Headington, Oxford",
+            "Reddingmuirhead, Falkirk"
+        ],
+        "google": [
+            "Reading",
+            "Reading Street, Broadstairs",
+            "Reading Street, Tenterden",
+            "Reading Green, Eye"
+        ]
+    },
+    "Redditch": {
+        "loqate": [
+            "Redditch, Worcestershire"
+        ],
+        "google": [
+            "Redditch"
+        ]
+    },
+    "Romford": {
+        "loqate": [
+            "Romford, Essex",
+            "Romford, Havering, London",
+            "Comford, Redruth",
+            "Rumford, Falkirk",
+            "Cromford, Matlock"
+        ],
+        "google": [
+            "Romford",
+            "Romford, Verwood"
+        ]
+    },
+    "Rotherham": {
+        "loqate": [
+            "Rotherham, South Yorkshire"
+        ],
+        "google": [
+            "Rotherham"
+        ]
+    },
+    "Rushden": {
+        "loqate": [
+            "Rushden, Northamptonshire",
+            "Rushden, Buntingford",
+            "Rushen Abbey, Ballasalla",
+            "Rushenden, Queenborough"
+        ],
+        "google": [
+            "Rushden",
+            "Rushden, Buntingford"
+        ]
+    },
+    "Salisbury": {
+        "loqate": [
+            "Salisbury, Wiltshire",
+            "Salesbury, Blackburn",
+            "Sarisbury Green, Southampton"
+        ],
+        "google": [
+            "Salisbury",
+            "Sarisbury Green, Southampton",
+            "Sarisbury, Southampton"
+        ]
+    },
+    "Scunthorpe": {
+        "loqate": [
+            "Scunthorpe, South Humberside",
+            "Sculthorpe, Fakenham"
+        ],
+        "google": [
+            "Scunthorpe"
+        ]
+    },
+    "Sheffield": {
+        "loqate": [
+            "Sheffield, South Yorkshire",
+            "Sheffield Park, Uckfield",
+            "Shelfield, Walsall",
+            "Shelfield, Alcester",
+            "Shenfield, Brentwood"
+        ],
+        "google": [
+            "Sheffield",
+            "Sheffield, Penzance",
+            "Sheffield Green, Uckfield",
+            "Sheffield Lane Top, Sheffield",
+            "Sheffield Bottom, Reading"
+        ]
+    },
+    "Shrewsbury": {
+        "loqate": [
+            "Shrewsbury, Shropshire"
+        ],
+        "google": [
+            "Shrewsbury"
+        ]
+    },
+    "Slough": {
+        "loqate": [
+            "Slough, Berkshire",
+            "Slough Green, Taunton",
+            "Loughton, Essex",
+            "Loughborough, Leicestershire",
+            "Cloughoge, Newry"
+        ],
+        "google": [
+            "Slough",
+            "Slough Trading Estate, Slough",
+            "Slough Green, Haywards Heath",
+            "Slough Green, Taunton",
+            "Slough Hill, Bury Saint Edmunds"
+        ]
+    },
+    "Southampton": {
+        "loqate": [
+            "Southampton, Hampshire",
+            "Southampton International Airport, Southampton",
+            "Southampton Science Park, Chilworth"
+        ],
+        "google": [
+            "Southampton"
+        ]
+    },
+    "Southend-on-Sea": {
+        "loqate": [
+            "Southend-On-Sea, Essex",
+            "Southend, Reading",
+            "Southend, Campbeltown",
+            "Southend, Henley-On-Thames",
+            "Southend, Wotton-Under-Edge"
+        ],
+        "google": [
+            "Southend-on-Sea"
+        ]
+    },
+    "Southport": {
+        "loqate": [
+            "Southport, Merseyside",
+            "South Poorton, Bridport"
+        ],
+        "google": [
+            "Southport"
+        ]
+    },
+    "Stafford": {
+        "loqate": [
+            "Stafford, Staffordshire",
+            "Stafford Cross, Colyton",
+            "Staffordshire Technology Park, Stafford",
+            "Stanford-Le-Hope, Essex",
+            "Stamford, Lincolnshire"
+        ],
+        "google": [
+            "Stafford",
+            "Staffordshire",
+            "Staffordstown, Antrim",
+            "Stratford-upon-Avon",
+            "Stanford in the Vale, Faringdon"
+        ]
+    },
+    "Staines-upon-Thames": {
+        "loqate": [
+            "Staines-Upon-Thames, Middlesex",
+            "Thames Ditton, Surrey",
+            "Staines Green, Hertford",
+            "Thames View Industrial Park, Abingdon",
+            "Thamesmead, Greenwich, London"
+        ],
+        "google": [
+            "Staines-upon-Thames"
+        ]
+    },
+    "Stevenage": {
+        "loqate": [
+            "Stevenage, Hertfordshire"
+        ],
+        "google": [
+            "Stevenage"
+        ]
+    },
+    "Stirling": {
+        "loqate": [
+            "Stirling, Stirlingshire",
+            "Skirling, Biggar",
+            "Stillington, York",
+            "Stillingfleet, York",
+            "Stillington, Stockton-On-Tees"
+        ],
+        "google": [
+            "Stirling",
+            "Stirling, Peterhead"
+        ]
+    },
+    "Stockport": {
+        "loqate": [
+            "Stockport, Greater Manchester"
+        ],
+        "google": [
+            "Stockport"
+        ]
+    },
+    "Stoke-On-Trent": {
+        "loqate": [
+            "Stoke-On-Trent, Staffordshire",
+            "Trent, Sherborne",
+            "Stoke, Andover",
+            "Stoke, Nantwich",
+            "Stoke, Plymouth"
+        ],
+        "google": [
+            "Stoke-on-Trent",
+            "Trentham, Stoke-on-Trent",
+            "Trent Vale, Stoke-on-Trent"
+        ]
+    },
+    "Stratford": {
+        "loqate": [
+            "Stratford-Upon-Avon, Warwickshire",
+            "Stratford, Newham, London",
+            "Stratford Tony, Salisbury",
+            "Stratford Enterprise Park, Stratford-Upon-Avon",
+            "Stratford St. Mary, Colchester"
+        ],
+        "google": [
+            "Stratford, London",
+            "Stratford-upon-Avon",
+            "Stratford St Mary, Colchester",
+            "Stratford St Andrew, Saxmundham",
+            "Stratford Tony, Salisbury"
+        ]
+    },
+    "Sunderland": {
+        "loqate": [
+            "Sunderland, Tyne and Wear",
+            "Sunderland, Cockermouth",
+            "Sunderland Bridge, Durham",
+            "Sunderland Point, Morecambe",
+            "Sunderland Enterprise Park, Sunderland"
+        ],
+        "google": [
+            "Sunderland",
+            "Sunderland Point, Morecambe",
+            "Sunderland Bridge, Durham",
+            "Sunderland, Cockermouth",
+            "Sunderlandwick, Driffield"
+        ]
+    },
+    "Sutton": {
+        "loqate": [
+            "Sutton, Surrey",
+            "Sutton, Ely",
+            "Sutton, Sandy",
+            "Sutton, Dover",
+            "Sutton, Witney"
+        ],
+        "google": [
+            "Sutton",
+            "Sutton Coldfield, Birmingham",
+            "Sutton-in-Ashfield",
+            "Sutton on Sea, Mablethorpe",
+            "Sutton Bridge, Spalding"
+        ]
+    },
+    "Swansea": {
+        "loqate": [
+            "Swansea, West Glamorgan",
+            "Swansea Vale, Swansea",
+            "Swansea Airport, Fairwood",
+            "Swansea Enterprise Park, Swansea"
+        ],
+        "google": [
+            "Swansea",
+            "Swansea Vale, Llansamlet, Swansea"
+        ]
+    },
+    "Swindon": {
+        "loqate": [
+            "Swindon, Wiltshire",
+            "Swindon, Dudley",
+            "Swindon Village, Cheltenham",
+            "Swinton, Duns",
+            "Swinton, Ripon"
+        ],
+        "google": [
+            "Swindon",
+            "Swindon Village, Cheltenham",
+            "Swindon, Staffordshire"
+        ]
+    },
+    "Tamworth": {
+        "loqate": [
+            "Tamworth, Staffordshire",
+            "Tadworth, Surrey",
+            "Tatworth, Chard",
+            "Hamworthy, Poole",
+            "Tanworth-In-Arden, Solihull"
+        ],
+        "google": [
+            "Tamworth",
+            "Tamworth In Arden, Solihull",
+            "Tamworth Green, Boston"
+        ]
+    },
+    "Taunton": {
+        "loqate": [
+            "Taunton, Somerset",
+            "Caunton, Newark",
+            "Taynton, Burford",
+            "Launton, Bicester",
+            "Haunton, Tamworth"
+        ],
+        "google": [
+            "Taunton",
+            "Taunton, Ashton-under-Lyne"
+        ]
+    },
+    "Telford": {
+        "loqate": [
+            "Telford, Shropshire",
+            "Telford Way Industrial Estate, Kettering",
+            "Belford, Northumberland",
+            "Yelford, Witney",
+            "Welford, Newbury"
+        ],
+        "google": [
+            "Telford",
+            "Telford and Wrekin",
+            "Telford Way Industrial Estate, Kettering"
+        ]
+    },
+    "Torquay": {
+        "loqate": [
+            "Torquay, Devon"
+        ],
+        "google": [
+            "Torquay"
+        ]
+    },
+    "Truro": {
+        "loqate": [
+            "Truro, Cornwall",
+            "Trudoxhill, Frome"
+        ],
+        "google": [
+            "Truro"
+        ]
+    },
+    "Uxbridge": {
+        "loqate": [
+            "Uxbridge, Middlesex",
+            "Uxbridge, Hillingdon, London",
+            "Axbridge, Avon",
+            "Axbridge, Somerset",
+            "Oxbridge, Bridport"
+        ],
+        "google": [
+            "Uxbridge"
+        ]
+    },
+    "Wakefield": {
+        "loqate": [
+            "Wakefield, West Yorkshire",
+            "Wakefield 41 Business Park, Wakefield",
+            "Wakefield 41 Industrial Estate, Wakefield",
+            "Pakefield, Lowestoft",
+            "Wokefield Green, Mortimer"
+        ],
+        "google": [
+            "Wakefield"
+        ]
+    },
+    "Wallasey": {
+        "loqate": [
+            "Wallasey, Merseyside",
+            "Wallasea Island, Rochford"
+        ],
+        "google": [
+            "Wallasey"
+        ]
+    },
+    "Walsall": {
+        "loqate": [
+            "Walsall, West Midlands",
+            "Walsall Wood, Walsall",
+            "Halsall, Ormskirk",
+            "Balsall Common, Coventry",
+            "Balsall Heath, Birmingham"
+        ],
+        "google": [
+            "Walsall",
+            "Walsall Wood, Walsall"
+        ]
+    },
+    "Warrington": {
+        "loqate": [
+            "Warrington, Cheshire",
+            "Warrington, Merseyside",
+            "Warrington, Olney",
+            "Harrington, Louth",
+            "Carrington, Boston"
+        ],
+        "google": [
+            "Warrington",
+            "Great Sankey",
+            "Warringtonas, Peterborough"
+        ]
+    },
+    "Watford": {
+        "loqate": [
+            "Watford, Hertfordshire",
+            "Watford, Northampton",
+            "Ratford, Calne",
+            "Matford, Exeter",
+            "Wayford, Norwich"
+        ],
+        "google": [
+            "Watford",
+            "Watford, Northampton",
+            "Watford Park, Caerphilly"
+        ]
+    },
+    "Wembley": {
+        "loqate": [
+            "Wembley, Middlesex",
+            "Wembley, Brent, London",
+            "Wembley Park, Brent, London",
+            "Wembley Central, Brent, London",
+            "Weobley, Hereford"
+        ],
+        "google": [
+            "Wembley",
+            "Wembley Park, Wembley",
+            "North Wembley, Wembley"
+        ]
+    },
+    "West Bromwich": {
+        "loqate": [
+            "West Bromwich, West Midlands"
+        ],
+        "google": [
+            "West Bromwich"
+        ]
+    },
+    "West Thurrock": {
+        "loqate": [
+            "West Thurrock, Grays"
+        ],
+        "google": [
+            "West Thurrock, Grays"
+        ]
+    },
+    "Wigan": {
+        "loqate": [
+            "Wigan, Greater Manchester",
+            "Wigland, Malpas"
+        ],
+        "google": [
+            "Wigan",
+            "Wiganthorpe, York"
+        ]
+    },
+    "Winchester": {
+        "loqate": [
+            "Winchester, Hampshire",
+            "Binchester, Bishop Auckland",
+            "Binchester Moor, Spennymoor"
+        ],
+        "google": [
+            "Winchester"
+        ]
+    },
+    "Woking": {
+        "loqate": [
+            "Woking, Surrey",
+            "Wokingham, Berkshire",
+            "Workington, Cumbria"
+        ],
+        "google": [
+            "Woking",
+            "Wokingham",
+            "Workington"
+        ]
+    },
+    "Wolverhampton": {
+        "loqate": [
+            "Wolverhampton, West Midlands"
+        ],
+        "google": [
+            "Wolverhampton",
+            "Merry Hill, Wolverhampton"
+        ]
+    },
+    "Worcester": {
+        "loqate": [
+            "Worcester, Worcestershire",
+            "Worcester Park, Surrey",
+            "Worcester Park, Sutton, London"
+        ],
+        "google": [
+            "Worcester",
+            "Worcestershire",
+            "Worcester Park"
+        ]
+    },
+    "Wrexham": {
+        "loqate": [
+            "Wrexham, Clwyd",
+            "Wrexham Industrial Estate, Wrexham",
+            "Wrexham Technology Park, Wrexham",
+            "Wexham, Slough",
+            "Wroxham, Norwich"
+        ],
+        "google": [
+            "Wrexham"
+        ]
+    },
+    "Yeovil": {
+        "loqate": [
+            "Yeovil, Somerset",
+            "Yeovil Marsh, Yeovil",
+            "Yeovilton, Yeovil",
+            "Yeo Vale, Bideford"
+        ],
+        "google": [
+            "Yeovil",
+            "Yeovilton, Yeovil",
+            "Yeovil Marsh, Yeovil"
+        ]
+    },
+    "York": {
+        "loqate": [
+            "York, North Yorkshire",
+            "York Business Park, Nether Poppleton",
+            "York Road Business Park, Malton",
+            "Yorkley, Lydney",
+            "Yorkley Slade, Yorkley"
+        ],
+        "google": [
+            "York",
+            "Yorkley, Lydney",
+            "Yorkletts, Whitstable",
+            "York Town, Camberley",
+            "Halifax"
+        ]
+    }
+}
